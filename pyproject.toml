@@ -1,0 +1,6 @@
+[project]
+name = "pp6-ml"
+version = "1.0.0"
+
+[project.scripts]
+run_count_presets = "count_presets:main" # counts the number of presets in total + counts presets with tags

@@ -1,12 +1,10 @@
-from get_all_preset_files import get_all_preset_files
-
-def get_preset_count(files: list[str]):
+def get_preset_count(preset_files: list[str]):
     preset_count = 0
-    preset_with_categorization_count = 0
+    preset_with_tags_count = 0
 
-    for file in files:
+    for preset_file in preset_files:
         try:
-            with open(file, mode='r', encoding='utf-8') as f:
+            with open(preset_file, mode='r', encoding='utf-8') as f:
                 lines = f.readlines()
 
                 preset_count += 1
@@ -18,7 +16,7 @@ def get_preset_count(files: list[str]):
                 for line in lines:
 
                     if has_categories and has_features and has_character:
-                        preset_with_categorization_count += 1
+                        preset_with_tags_count += 1
                         break
 
                     if not has_categories and line.startswith('Categories'):
@@ -29,6 +27,6 @@ def get_preset_count(files: list[str]):
                         has_character = True
                             
         except Exception as e:
-            print(f'error when processing {file}: {e}')
+            print(f'error when processing {preset_file}: {e}')
     
-    return preset_count, preset_with_categorization_count
+    return preset_count, preset_with_tags_count

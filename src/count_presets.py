@@ -5,4 +5,4 @@ def main():
     preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
     preset_count, preset_with_tags_count = get_preset_count(preset_files)
 
-    print(f'Presets (total): {preset_count}\tPresets (w/ tags): {preset_with_tags_count}')
+    print(f'Presets (total): {preset_count}\t\tPresets (w/ tags): {preset_with_tags_count}\t\tPresets (w/o tags): {preset_count - preset_with_tags_count}')

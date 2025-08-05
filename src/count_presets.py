@@ -33,7 +33,7 @@ def main():
 
     print(output)
 
-    file = 'data/count_presets_output.txt.txt'
+    file = 'data/count_presets_output.txt'
     os.makedirs(os.path.dirname(file), exist_ok=True)
 
     with open(file, 'w', encoding='utf-8') as f:

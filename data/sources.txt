@@ -1,0 +1,56 @@
+This is a list of all sources used for gaining a dataset of DIVA presets to train to model on.
+
+c = contains categories (e.g. bass:pluck, mono, dark etc)
+n = no categories
+p = partly categorized
+
+- 1 https://hypeddit.com/willvance/hoursintwilightfreedivapresets (p)
+- 2 https://www.theunfinished.co.uk/free/ (c):
+    - 2.1   Diva Lupus
+    - 2.2   Diva Lupus II
+    - 2.3   Diva Saur
+- 3 https://u-he.com/PatchLib/presets/diva/FMR_patches.zip (n)
+- 4 Audiobombs (p):
+    - 4.1   ZaBong (p):
+        - 4.1.1 https://www.audiobombs.com/items/1266/zabongs%27s-free-diva-soundset-one (p)
+        - 4.1.2 https://www.audiobombs.com/items/1298/zabong%27s-diva-set-2 (p)
+    - 4.2   Bronto Scorpio: https://www.audiobombs.com/items/249/future-retro-soundbank-for-u-he-diva/download (n)
+- 5 Zensound (p):
+    - 5.1   https://www.zensound.es/soundsets/diva-aeterna/ (c)
+    - 5.2   https://www.zensound.es/soundsets/diva-aethra/ (c)
+    - 5.3   https://www.zensound.es/soundsets/diva/diva-aethra-ii/ (c)
+    - 5.4   https://www.zensound.es/soundsets/diva/diva-aethra-iii/ (c)
+    - 5.5   https://www.zensound.es/latest-soundsets/diva/diva-boreas/ (p)
+    - 5.6   https://www.zensound.es/soundsets/diva-dreamwaves/ (c)
+    - 5.7   https://www.zensound.es/soundsets/diva-elios/ (c)
+    - 5.8   https://www.zensound.es/soundsets/diva-umbra/ (p)
+- 6 Freshloops (p):
+    - 6.1 https://freshloops.net/5654-aiyn-zahev-sounds-diva-digital-vol1.html (p)
+    - 6.2 https://freshloops.net/5267-aiyn-zahev-sounds-diva-digital-vol2.html (n)
+    - 6.3 https://freshloops.net/5361-focus-diva-melodic-techno.html (c)
+    - 6.4 https://freshloops.net/1006-diva-deep-presets.html (n)
+    - 6.5 https://freshloops.net/3253-deceiver-diva-edition.html (n)
+    - 6.6 https://freshloops.net/5227-diva-trance-essentials-volume-1.html (n)
+    - 6.7 https://freshloops.net/4960-valia-diva-preset-pack.html (c)
+    - 6.8 https://freshloops.net/1745-zaphira-for-u-he-diva.html (c)
+    - 6.9 https://freshloops.net/3705-premium-artist-diva-preset-pack.html (p)
+    - 6.10 https://freshloops.net/4271-diva-preset-bundle.html (p)
+    - 6.11 https://freshloops.net/4133-visions-melodic-house-diva-presets-by-bound-to-divide.html (p) (duplicates other presets)
+    - 6.12 https://freshloops.net/5308-cercle-sounds-vol-3-diva-preset-pack.html (c)
+    - 6.13 https://freshloops.net/4970-melodic-techno-and-trance-diva-presets-by-aiyn-zahev-vol1.html (p)
+    - 6.14 https://freshloops.net/4971-melodic-techno-and-trance-diva-presets-by-aiyn-zahev-vol2.html (p)
+    - 6.15 https://freshloops.net/3585-organic-house-essentials-by-felix-raphael.html (p) (duplicates other presets)
+    - 6.16 https://freshloops.net/4132-melodic-amp-organic-diva-presets-by-felix-raphael.html (p) (duplicates other presets)
+    - 6.17 https://freshloops.net/438-melodic-techno-loops-and-diva-presets-vol-1-3.html (n)
+    - 6.18 https://freshloops.net/5243-aiyn-zahev-sounds-transcend.html (p) (duplicates other presets)
+    - 6.19 https://freshloops.net/5964-melodic-techno-diva-presets.html (c)
+    - 6.20 https://freshloops.net/4349-progressive-melodic-techno.html (p) (needed to be converted from .fxp to .h2p and to utf-8 encoding)
+    - 6.21 https://freshloops.net/5008-melodic-techno-3-for-diva.html (n)
+    - 6.22 https://freshloops.net/5450-7-skies-divyne-melodic-techno-presets.html (p)
+    - 6.23 https://freshloops.net/4060-melodic-house-amp-techno-for-diva.html (c)
+    - 6.24 https://freshloops.net/5536-desert-afro-and-melodic-house.html (n)
+    - 6.25 https://freshloops.net/5682-nova-melodic-techno-amp-house.html (n) (duplicates other presets)
+    - 6.26 https://freshloops.net/5942-odyssey-melodic-techno-and-house.html (n) (duplicates other presets)
+    - 6.27 https://freshloops.net/491-techno-synths-for-diva.html (n)
+    - 6.28 https://freshloops.net/5134-organica-vol4-full-production-suite.html (n)
+others to come...

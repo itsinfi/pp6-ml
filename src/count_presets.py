@@ -3,8 +3,6 @@ from utils import get_all_preset_files, get_preset_count, count_duplicate_preset
 import os
 from io import StringIO
 
-# TODO: add last preset from freshloops
-# TODO: add preset source listing file to this repository
 # TODO: fix preset folder structure
 
 def main():

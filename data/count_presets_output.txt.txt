@@ -1,0 +1,1306 @@
+Output for count_presets:
+
+
+
+
+
+1 Diva:
+Presets (total): 75		Presets (w/ tags): 0		Presets (w/o tags): 75
+----------------------------------------------------------------------------------------------------
+2 1 BASS:
+Presets (total): 78		Presets (w/ tags): 78		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+3 2 LEAD:
+Presets (total): 99		Presets (w/ tags): 99		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+4 3 POLY SYNTH:
+Presets (total): 90		Presets (w/ tags): 89		Presets (w/o tags): 1
+----------------------------------------------------------------------------------------------------
+5 4 DREAM SYNTH:
+Presets (total): 69		Presets (w/ tags): 69		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+6 5 PERCUSSIVE:
+Presets (total): 33		Presets (w/ tags): 33		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+7 6 RHYTHMIC:
+Presets (total): 51		Presets (w/ tags): 51		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+8 7 EFFECTS:
+Presets (total): 55		Presets (w/ tags): 55		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+9 8 TEMPLATES:
+Presets (total): 11		Presets (w/ tags): 0		Presets (w/o tags): 11
+----------------------------------------------------------------------------------------------------
+10 1 First Hour Of Twilight [Will Vance's Free Diva Presets]:
+Presets (total): 34		Presets (w/ tags): 17		Presets (w/o tags): 17
+----------------------------------------------------------------------------------------------------
+11 2.1 Diva Lupus:
+Presets (total): 45		Presets (w/ tags): 45		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+12 2.2 Diva Lupus II:
+Presets (total): 80		Presets (w/ tags): 78		Presets (w/o tags): 2
+----------------------------------------------------------------------------------------------------
+13 2.3 Diva Saur:
+Presets (total): 50		Presets (w/ tags): 50		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+14 Juno-60:
+Presets (total): 65		Presets (w/ tags): 0		Presets (w/o tags): 65
+----------------------------------------------------------------------------------------------------
+15 Jupiter-8:
+Presets (total): 1		Presets (w/ tags): 0		Presets (w/o tags): 1
+----------------------------------------------------------------------------------------------------
+16 Minimoog:
+Presets (total): 18		Presets (w/ tags): 0		Presets (w/o tags): 18
+----------------------------------------------------------------------------------------------------
+17 Templates:
+Presets (total): 11		Presets (w/ tags): 0		Presets (w/o tags): 11
+----------------------------------------------------------------------------------------------------
+18 4.1.1 Set One:
+Presets (total): 43		Presets (w/ tags): 41		Presets (w/o tags): 2
+----------------------------------------------------------------------------------------------------
+19 4.1.2 Set Two:
+Presets (total): 40		Presets (w/ tags): 32		Presets (w/o tags): 8
+----------------------------------------------------------------------------------------------------
+20 4.2 Future Retro Demo Presets:
+Presets (total): 10		Presets (w/ tags): 0		Presets (w/o tags): 10
+----------------------------------------------------------------------------------------------------
+21 5.1 ZenSound - Aeterna DEMO:
+Presets (total): 11		Presets (w/ tags): 11		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+22 5.2 ZenSound - Aethra DEMO:
+Presets (total): 11		Presets (w/ tags): 11		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+23 5.3 ZenSound - Aethra II DEMO:
+Presets (total): 12		Presets (w/ tags): 12		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+24 5.4 ZenSound - DIVA AETHRA III DEMO:
+Presets (total): 8		Presets (w/ tags): 8		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+25 5.5 ZenSound - DIVA BOREAS DEMO:
+Presets (total): 8		Presets (w/ tags): 7		Presets (w/o tags): 1
+----------------------------------------------------------------------------------------------------
+26 5.6 Dreamwaves DEMO:
+Presets (total): 10		Presets (w/ tags): 10		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+27 5.7 ZenSound - Elios DEMO:
+Presets (total): 10		Presets (w/ tags): 10		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+28 5.8 ZenSound - Umbra DEMO:
+Presets (total): 12		Presets (w/ tags): 10		Presets (w/o tags): 2
+----------------------------------------------------------------------------------------------------
+29 6.1 Aiyn Zahev - Diva Digital:
+Presets (total): 308		Presets (w/ tags): 305		Presets (w/o tags): 3
+----------------------------------------------------------------------------------------------------
+30 Cercle 1:
+Presets (total): 108		Presets (w/ tags): 2		Presets (w/o tags): 106
+----------------------------------------------------------------------------------------------------
+31 Cercle 2:
+Presets (total): 100		Presets (w/ tags): 100		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+32 Melodic & Organic (FR):
+Presets (total): 124		Presets (w/ tags): 64		Presets (w/o tags): 60
+----------------------------------------------------------------------------------------------------
+33 Melodic House (BTD):
+Presets (total): 77		Presets (w/ tags): 3		Presets (w/o tags): 74
+----------------------------------------------------------------------------------------------------
+34 Melodic Techno (NH):
+Presets (total): 60		Presets (w/ tags): 0		Presets (w/o tags): 60
+----------------------------------------------------------------------------------------------------
+35 Melodics (TE):
+Presets (total): 95		Presets (w/ tags): 0		Presets (w/o tags): 95
+----------------------------------------------------------------------------------------------------
+36 Organic House Essentials (FR):
+Presets (total): 50		Presets (w/ tags): 17		Presets (w/o tags): 33
+----------------------------------------------------------------------------------------------------
+37 Organica (YM&B):
+Presets (total): 30		Presets (w/ tags): 0		Presets (w/o tags): 30
+----------------------------------------------------------------------------------------------------
+38 Visions (BW):
+Presets (total): 85		Presets (w/ tags): 8		Presets (w/o tags): 77
+----------------------------------------------------------------------------------------------------
+39 6.11 PML - BTD - Visions v1.1 - Melodic House & Techno:
+Presets (total): 85		Presets (w/ tags): 8		Presets (w/o tags): 77
+----------------------------------------------------------------------------------------------------
+40 6.12 PML - Cercle Vol. 3 - Presets:
+Presets (total): 100		Presets (w/ tags): 100		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+41 6.13 PML - Melodic Techno, Trance - Diva Presets:
+Presets (total): 130		Presets (w/ tags): 2		Presets (w/o tags): 128
+----------------------------------------------------------------------------------------------------
+42 6.14 PML - Melodic Techno, Trance Vol 2 - Diva Presets:
+Presets (total): 120		Presets (w/ tags): 2		Presets (w/o tags): 118
+----------------------------------------------------------------------------------------------------
+43 6.15 PML Organic House Essentials by Felix Raphael:
+Presets (total): 50		Presets (w/ tags): 17		Presets (w/o tags): 33
+----------------------------------------------------------------------------------------------------
+44 6.16 PML x FR2 Melodic _ Organic Presets:
+Presets (total): 124		Presets (w/ tags): 64		Presets (w/o tags): 60
+----------------------------------------------------------------------------------------------------
+45 6.17 vol 1:
+Presets (total): 50		Presets (w/ tags): 0		Presets (w/o tags): 50
+----------------------------------------------------------------------------------------------------
+46 6.17 vol 2:
+Presets (total): 50		Presets (w/ tags): 0		Presets (w/o tags): 50
+----------------------------------------------------------------------------------------------------
+47 6.17 vol 3:
+Presets (total): 50		Presets (w/ tags): 0		Presets (w/o tags): 50
+----------------------------------------------------------------------------------------------------
+48 Arps:
+Presets (total): 36		Presets (w/ tags): 29		Presets (w/o tags): 7
+----------------------------------------------------------------------------------------------------
+49 Bass Long:
+Presets (total): 37		Presets (w/ tags): 37		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+50 Bass Short:
+Presets (total): 36		Presets (w/ tags): 36		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+51 Chords:
+Presets (total): 10		Presets (w/ tags): 10		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+52 Drums:
+Presets (total): 16		Presets (w/ tags): 11		Presets (w/o tags): 5
+----------------------------------------------------------------------------------------------------
+53 FX:
+Presets (total): 20		Presets (w/ tags): 14		Presets (w/o tags): 6
+----------------------------------------------------------------------------------------------------
+54 Leads:
+Presets (total): 56		Presets (w/ tags): 56		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+55 Pads:
+Presets (total): 50		Presets (w/ tags): 49		Presets (w/o tags): 1
+----------------------------------------------------------------------------------------------------
+56 Plucks:
+Presets (total): 33		Presets (w/ tags): 33		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+57 Sequences:
+Presets (total): 22		Presets (w/ tags): 18		Presets (w/o tags): 4
+----------------------------------------------------------------------------------------------------
+58 Synth:
+Presets (total): 35		Presets (w/ tags): 35		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+59 6.19 RS Melodic Techno Diva Presets:
+Presets (total): 50		Presets (w/ tags): 50		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+60 6.2 AZS Diva Digital Vol.2:
+Presets (total): 216		Presets (w/ tags): 0		Presets (w/o tags): 216
+----------------------------------------------------------------------------------------------------
+61 6.21 SF - Melodic Techno Vol.3 (Diva Presets):
+Presets (total): 50		Presets (w/ tags): 0		Presets (w/o tags): 50
+----------------------------------------------------------------------------------------------------
+62 6.22 STANDALONE-MUSIC - DIVYNE:
+Presets (total): 127		Presets (w/ tags): 125		Presets (w/o tags): 2
+----------------------------------------------------------------------------------------------------
+63 6.23 Melodic_House_and_Techno:
+Presets (total): 155		Presets (w/ tags): 155		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+64 6.24 The Producer School - Desert Presets:
+Presets (total): 95		Presets (w/ tags): 0		Presets (w/o tags): 95
+----------------------------------------------------------------------------------------------------
+65 6.25 TPS - Nova:
+Presets (total): 91		Presets (w/ tags): 0		Presets (w/o tags): 91
+----------------------------------------------------------------------------------------------------
+66 6.26 Odyssey Presets:
+Presets (total): 95		Presets (w/ tags): 0		Presets (w/o tags): 95
+----------------------------------------------------------------------------------------------------
+67 6.27 TECHNOSFDIVA - Presets - U-He Diva:
+Presets (total): 150		Presets (w/ tags): 0		Presets (w/o tags): 150
+----------------------------------------------------------------------------------------------------
+68 6.3 DataCode Diva Presets:
+Presets (total): 83		Presets (w/ tags): 83		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+69 6.4 DDL-Diva_Deep:
+Presets (total): 100		Presets (w/ tags): 0		Presets (w/o tags): 100
+----------------------------------------------------------------------------------------------------
+70 6.5 Evolution of Sounds Deceiver Diva Edition Diva Presets Pack H2P:
+Presets (total): 136		Presets (w/ tags): 0		Presets (w/o tags): 136
+----------------------------------------------------------------------------------------------------
+71 6.6 Trance Essentials Vol 1:
+Presets (total): 256		Presets (w/ tags): 0		Presets (w/o tags): 256
+----------------------------------------------------------------------------------------------------
+72 6.7 Valia:
+Presets (total): 200		Presets (w/ tags): 200		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+73 6.8 Zaphira:
+Presets (total): 150		Presets (w/ tags): 150		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+74 6.9 Premium Artist Presets:
+Presets (total): 102		Presets (w/ tags): 39		Presets (w/o tags): 63
+----------------------------------------------------------------------------------------------------
+75 THIRD PARTY:
+Presets (total): 1		Presets (w/ tags): 0		Presets (w/o tags): 1
+----------------------------------------------------------------------------------------------------
+76 Basari:
+Presets (total): 20		Presets (w/ tags): 20		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+77 Bigtone eco bank:
+Presets (total): 40		Presets (w/ tags): 40		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+78 BrontoScorpio:
+Presets (total): 27		Presets (w/ tags): 27		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+79 Fernando's hardware factory:
+Presets (total): 199		Presets (w/ tags): 199		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+80 Ingo Weidner:
+Presets (total): 95		Presets (w/ tags): 95		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+81 MCnoone:
+Presets (total): 24		Presets (w/ tags): 24		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+82 Mr Wobble:
+Presets (total): 38		Presets (w/ tags): 38		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+83 Sjoerd van Geffen:
+Presets (total): 71		Presets (w/ tags): 71		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+84 Tasmodia:
+Presets (total): 50		Presets (w/ tags): 50		Presets (w/o tags): 0
+----------------------------------------------------------------------------------------------------
+85 TREASURE TROVE!:
+Presets (total): 306		Presets (w/ tags): 305		Presets (w/o tags): 1
+----------------------------------------------------------------------------------------------------
+Presets (total): 6114		Presets (w/ tags): 3507		Presets (w/o tags): 2607
+
+
+
+Duplicate 1: 2x	HS Bass Nine.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Bass Nine.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\1 BASS\\HS Bass Nine.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 2: 2x	HS Model K12.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Model K12.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\1 BASS\\HS Model K12.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 3: 2x	HS Sync Hangar.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Sync Hangar.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\1 BASS\\HS Sync Hangar.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 4: 2x	MK Bass In Tube.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Bass In Tube.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\1 BASS\\MK Bass In Tube.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 5: 2x	MK Bass Pack Leader.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Bass Pack Leader.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\1 BASS\\MK Bass Pack Leader.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 6: 2x	XS Juno Hoover.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\XS Juno Hoover.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\1 BASS\\XS Juno Hoover.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 7: 2x	HS Albert Hall Mini.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Albert Hall Mini.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\HS Albert Hall Mini.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 8: 2x	HS Canterbury Creeper.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Canterbury Creeper.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\HS Canterbury Creeper.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 9: 2x	HS Chili Paste duo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Chili Paste duo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\HS Chili Paste duo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 10: 2x	HS Divanity.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Divanity.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\HS Divanity.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 11: 2x	HS House Dust.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS House Dust.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\HS House Dust.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 12: 2x	HS Lounge Dust.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Lounge Dust.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\HS Lounge Dust.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 13: 2x	MK Joy.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Joy.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\MK Joy.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 14: 2x	MK Syncopat.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Syncopat.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\MK Syncopat.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 15: 2x	TUC Single Cell Worm.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\TUC Single Cell Worm.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\2 LEAD\\TUC Single Cell Worm.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 16: 2x	HS Fatima poly.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Fatima poly.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS Fatima poly.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 17: 2x	HS Gammond.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Gammond.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS Gammond.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 18: 2x	HS High StraDIVAri.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS High StraDIVAri.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS High StraDIVAri.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 19: 2x	HS I cant believe its not analogue.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS I cant believe its not analogue.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS I cant believe its not analogue.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 20: 2x	HS Protocol.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Protocol.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS Protocol.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 21: 2x	HS Sparkle.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Sparkle.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS Sparkle.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 22: 2x	HS Strumpet.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Strumpet.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS Strumpet.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 23: 2x	HS Switched On Voicing.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Switched On Voicing.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\HS Switched On Voicing.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 24: 2x	MK Brass Straight Up.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Brass Straight Up.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\MK Brass Straight Up.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 25: 2x	MK Strings Short PWM.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Strings Short PWM.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\MK Strings Short PWM.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 26: 2x	PG FilterConToUrs.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\PG FilterConToUrs.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\PG FilterConToUrs.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 27: 2x	XS Analog Clavinova.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\XS Analog Clavinova.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\3 POLY SYNTH\\XS Analog Clavinova.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 28: 2x	BS Deep Space Diva.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\BS Deep Space Diva.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\4 DREAM SYNTH\\BS Deep Space Diva.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 29: 2x	MK Planet Earth.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Planet Earth.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\4 DREAM SYNTH\\MK Planet Earth.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 30: 2x	MM Choir In The Clouds.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MM Choir In The Clouds.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\4 DREAM SYNTH\\MM Choir In The Clouds.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 31: 2x	ROY Old Recipe.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\ROY Old Recipe.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\4 DREAM SYNTH\\ROY Old Recipe.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 32: 2x	SW Magic Flute.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SW Magic Flute.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\4 DREAM SYNTH\\SW Magic Flute.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 33: 2x	XS Analog E. Piano.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\XS Analog E. Piano.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\4 DREAM SYNTH\\XS Analog E. Piano.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 34: 2x	HS Chango Clique.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Chango Clique.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\5 PERCUSSIVE\\HS Chango Clique.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 35: 2x	HS Kit 1 acoustic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Kit 1 acoustic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\5 PERCUSSIVE\\HS Kit 1 acoustic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 36: 2x	HS Kit 2 electro.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Kit 2 electro.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\5 PERCUSSIVE\\HS Kit 2 electro.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 37: 2x	TUC Knock It!.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\TUC Knock It!.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\5 PERCUSSIVE\\TUC Knock It!.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 38: 2x	HS All Processors.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS All Processors.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\HS All Processors.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 39: 2x	HS Duduwap 1.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Duduwap 1.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\HS Duduwap 1.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 40: 2x	HS Hail Bob 1.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Hail Bob 1.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\HS Hail Bob 1.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 41: 2x	HS Trans-Uranian Express.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Trans-Uranian Express.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\HS Trans-Uranian Express.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 42: 2x	MK Pattern Grammaphone.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Pattern Grammaphone.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\MK Pattern Grammaphone.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 43: 2x	MK Pattern Metal Works.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK Pattern Metal Works.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\MK Pattern Metal Works.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 44: 2x	ROY FX Rewinding the Tape.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\ROY FX Rewinding the Tape.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\6 RHYTHMIC\\ROY FX Rewinding the Tape.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 45: 2x	BS THXish.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\BS THXish.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\BS THXish.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 46: 2x	HS Kromosaur.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Kromosaur.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\HS Kromosaur.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 47: 2x	HS Modular Bells.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Modular Bells.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\HS Modular Bells.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 48: 2x	HS Vulcan Pigs.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\HS Vulcan Pigs.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\HS Vulcan Pigs.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 49: 2x	MK FX Scaled Resonance.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK FX Scaled Resonance.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\MK FX Scaled Resonance.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 50: 2x	MK FX Wind.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\MK FX Wind.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\MK FX Wind.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 51: 2x	ROY EXPERIMENTAL God Particle.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\ROY EXPERIMENTAL God Particle.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\ROY EXPERIMENTAL God Particle.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 52: 2x	ROY FX Cold December.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\ROY FX Cold December.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\ROY FX Cold December.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 53: 2x	SM Schnarrer.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SM Schnarrer.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\SM Schnarrer.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 54: 2x	SW Bonk.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SW Bonk.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\SW Bonk.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 55: 2x	TUC Bubbler.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\TUC Bubbler.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\7 EFFECTS\\TUC Bubbler.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 56: 2x	LD Push.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\2.3 Diva Saur\\LD Push.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.1 Aiyn Zahev - Diva Digital\\LD Push.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 57: 2x	BTD_Visions_ARP_Bound.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_ARP_Bound.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_ARP_Bound.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 58: 2x	BTD_Visions_ARP_Divided.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_ARP_Divided.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_ARP_Divided.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 59: 2x	BTD_Visions_ARP_Halo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_ARP_Halo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_ARP_Halo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 60: 2x	BTD_Visions_ARP_Snappy.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_ARP_Snappy.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_ARP_Snappy.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 61: 2x	BTD_Visions_ARP_Swang.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_ARP_Swang.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_ARP_Swang.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 62: 2x	BTD_Visions_ARP_Vision.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_ARP_Vision.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_ARP_Vision.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 63: 2x	BTD_Visions_BS_Berry.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Berry.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Berry.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 64: 2x	BTD_Visions_BS_Dark.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Dark.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Dark.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 65: 2x	BTD_Visions_BS_Destiny.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Destiny.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Destiny.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 66: 2x	BTD_Visions_BS_Gnarly.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Gnarly.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Gnarly.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 67: 2x	BTD_Visions_BS_Ground.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Ground.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Ground.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 68: 2x	BTD_Visions_BS_Hard.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Hard.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Hard.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 69: 2x	BTD_Visions_BS_Penta.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Penta.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Penta.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 70: 2x	BTD_Visions_BS_PentaPluck.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_PentaPluck.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_PentaPluck.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 71: 2x	BTD_Visions_BS_Simples.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Simples.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Simples.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 72: 2x	BTD_Visions_BS_Sixteenth.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Sixteenth.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Sixteenth.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 73: 2x	BTD_Visions_BS_Sub.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Sub.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Sub.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 74: 2x	BTD_Visions_BS_Sub2.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Sub2.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Sub2.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 75: 2x	BTD_Visions_BS_SubPluck.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_SubPluck.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_SubPluck.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 76: 2x	BTD_Visions_BS_Sunrise.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Sunrise.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Sunrise.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 77: 2x	BTD_Visions_BS_Taken.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_BS_Taken.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_BS_Taken.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 78: 2x	BTD_Visions_KEYS_Alpha.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Alpha.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Alpha.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 79: 2x	BTD_Visions_KEYS_Cryo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Cryo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Cryo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 80: 2x	BTD_Visions_KEYS_Defy.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Defy.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Defy.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 81: 2x	BTD_Visions_KEYS_Free.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Free.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Free.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 82: 2x	BTD_Visions_KEYS_Pentacular.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Pentacular.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Pentacular.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 83: 2x	BTD_Visions_KEYS_Rolo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Rolo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Rolo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 84: 2x	BTD_Visions_KEYS_Se7en.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Se7en.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Se7en.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 85: 2x	BTD_Visions_KEYS_Sinez.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Sinez.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Sinez.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 86: 2x	BTD_Visions_KEYS_Together.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Together.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Together.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 87: 2x	BTD_Visions_KEYS_Volcano.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_KEYS_Volcano.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_KEYS_Volcano.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 88: 2x	BTD_Visions_LD_Beneath.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Beneath.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Beneath.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 89: 2x	BTD_Visions_LD_Beyond.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Beyond.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Beyond.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 90: 2x	BTD_Visions_LD_Detuned.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Detuned.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Detuned.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 91: 2x	BTD_Visions_LD_Dune.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Dune.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Dune.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 92: 2x	BTD_Visions_LD_Dust2.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Dust2.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Dust2.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 93: 2x	BTD_Visions_LD_Flare.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Flare.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Flare.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 94: 2x	BTD_Visions_LD_Forest.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Forest.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Forest.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 95: 2x	BTD_Visions_LD_Grey.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Grey.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Grey.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 96: 2x	BTD_Visions_LD_Hyper.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Hyper.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Hyper.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 97: 2x	BTD_Visions_LD_LFO.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_LFO.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_LFO.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 98: 2x	BTD_Visions_LD_LFO2.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_LFO2.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_LFO2.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 99: 2x	BTD_Visions_LD_Misty.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Misty.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Misty.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 100: 2x	BTD_Visions_LD_Nova.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Nova.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Nova.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 101: 2x	BTD_Visions_LD_One.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_One.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_One.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 102: 2x	BTD_Visions_LD_Reborn.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Reborn.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Reborn.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 103: 2x	BTD_Visions_LD_Returns.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Returns.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Returns.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 104: 2x	BTD_Visions_LD_Sun.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Sun.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Sun.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 105: 2x	BTD_Visions_LD_Sunsets.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Sunsets.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Sunsets.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 106: 2x	BTD_Visions_LD_Tides.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Tides.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Tides.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 107: 2x	BTD_Visions_LD_Widow.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_LD_Widow.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_LD_Widow.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 108: 2x	BTD_Visions_PD_Apparition.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Apparition.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Apparition.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 109: 2x	BTD_Visions_PD_Blue.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Blue.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Blue.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 110: 2x	BTD_Visions_PD_Bubbles.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Bubbles.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Bubbles.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 111: 2x	BTD_Visions_PD_Dark.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Dark.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Dark.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 112: 2x	BTD_Visions_PD_Follow.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Follow.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Follow.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 113: 2x	BTD_Visions_PD_Gravity.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Gravity.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Gravity.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 114: 2x	BTD_Visions_PD_Monsoon.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Monsoon.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Monsoon.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 115: 2x	BTD_Visions_PD_River.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_River.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_River.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 116: 2x	BTD_Visions_PD_Sky.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Sky.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Sky.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 117: 2x	BTD_Visions_PD_Visions.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PD_Visions.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PD_Visions.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 118: 2x	BTD_Visions_PL_Apple.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Apple.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Apple.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 119: 2x	BTD_Visions_PL_Arrow.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Arrow.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Arrow.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 120: 2x	BTD_Visions_PL_Ash.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Ash.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Ash.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 121: 2x	BTD_Visions_PL_Astro.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Astro.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Astro.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 122: 2x	BTD_Visions_PL_Basic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Basic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Basic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 123: 2x	BTD_Visions_PL_Broken.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Broken.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Broken.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 124: 2x	BTD_Visions_PL_Desire.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Desire.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Desire.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 125: 2x	BTD_Visions_PL_Destiny.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Destiny.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Destiny.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 126: 2x	BTD_Visions_PL_Dimension.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Dimension.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Dimension.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 127: 2x	BTD_Visions_PL_Flood.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Flood.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Flood.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 128: 2x	BTD_Visions_PL_Gateway.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Gateway.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Gateway.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 129: 2x	BTD_Visions_PL_Haze.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Haze.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Haze.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 130: 2x	BTD_Visions_PL_Indigo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Indigo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Indigo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 131: 2x	BTD_Visions_PL_Mirage.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Mirage.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Mirage.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 132: 2x	BTD_Visions_PL_Neon.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Neon.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Neon.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 133: 2x	BTD_Visions_PL_Oasis.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Oasis.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Oasis.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 134: 2x	BTD_Visions_PL_Ocean.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Ocean.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Ocean.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 135: 2x	BTD_Visions_PL_One.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_One.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_One.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 136: 2x	BTD_Visions_PL_Rebound.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Rebound.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Rebound.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 137: 2x	BTD_Visions_PL_Road.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Road.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Road.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 138: 2x	BTD_Visions_PL_Sandblast.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Sandblast.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Sandblast.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 139: 2x	BTD_Visions_PL_Tight.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Tight.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Tight.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 140: 2x	BTD_Visions_PL_Two.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Two.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Two.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 141: 2x	BTD_Visions_PL_Violet.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Visions (BW)\\BTD_Visions_PL_Violet.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.11 PML - BTD - Visions v1.1 - Melodic House & Techno\\BTD_Visions_PL_Violet.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 142: 2x	PML FR Arp 32th.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp 32th.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp 32th.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 143: 2x	PML FR Arp Attack.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Attack.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Attack.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 144: 2x	PML FR Arp Distore.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Distore.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Distore.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 145: 2x	PML FR Arp Layer Town.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Layer Town.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Layer Town.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 146: 2x	PML FR Arp Noid.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Noid.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Noid.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 147: 2x	PML FR Arp Second Row.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Second Row.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Second Row.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 148: 2x	PML FR Arp Slow bells.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Slow bells.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Slow bells.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 149: 2x	PML FR Arp Super Marios Castle.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Super Marios Castle.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Super Marios Castle.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 150: 2x	PML FR Arp Vibrato.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Arp Vibrato.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Arp Vibrato.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 151: 2x	PML FR ARP Water on Mars.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR ARP Water on Mars.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR ARP Water on Mars.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 152: 2x	PML FR Bass 5th.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass 5th.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass 5th.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 153: 2x	PML FR Bass Beefy.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Beefy.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Beefy.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 154: 2x	PML FR Bass Classic Arpish.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Classic Arpish.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Classic Arpish.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 155: 2x	PML FR Bass Evolving.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Evolving.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Evolving.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 156: 2x	PML FR Bass Groove.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Groove.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Groove.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 157: 2x	PML FR Bass Not So Subby.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Not So Subby.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Not So Subby.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 158: 2x	PML FR Bass Resonant.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Resonant.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Resonant.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 159: 2x	PML FR Bass Rich.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Rich.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Rich.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 160: 2x	PML FR Bass Subber.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Subber.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Subber.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 161: 2x	PML FR Bass Wobble.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Bass Wobble.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Bass Wobble.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 162: 2x	PML FR Chord Roll.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Chord Roll.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Chord Roll.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 163: 2x	PML FR Chords Magistic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Chords Magistic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Chords Magistic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 164: 2x	PML FR Chords Out of the dark.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Chords Out of the dark.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Chords Out of the dark.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 165: 2x	PML FR Chords Plucked.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Chords Plucked.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Chords Plucked.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 166: 2x	PML FR Lead Abar.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Abar.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Abar.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 167: 2x	PML FR Lead Brassey.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Brassey.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Brassey.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 168: 2x	PML FR Lead Glidey.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Glidey.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Glidey.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 169: 2x	PML FR Lead Noise Ghost.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Noise Ghost.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Noise Ghost.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 170: 2x	PML FR Lead Shimmering Noiseland.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Shimmering Noiseland.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Shimmering Noiseland.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 171: 2x	PML FR Lead Singing Triplets.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Singing Triplets.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Singing Triplets.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 172: 2x	PML FR Lead This and That.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead This and That.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead This and That.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 173: 2x	PML FR Lead Union.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Union.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Union.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 174: 2x	PML FR Lead Universe.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Universe.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Universe.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 175: 2x	PML FR Lead Xylon.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Lead Xylon.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Lead Xylon.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 176: 2x	PML FR Pad Background.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pad Background.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pad Background.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 177: 2x	PML FR Pad Detuned.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pad Detuned.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pad Detuned.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 178: 2x	PML FR Pad Electrified.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pad Electrified.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pad Electrified.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 179: 2x	PML FR Pad Ever shining.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pad Ever shining.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pad Ever shining.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 180: 2x	PML FR Pad Spherical.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pad Spherical.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pad Spherical.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 181: 2x	PML FR Pad Underwater Vibrations.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pad Underwater Vibrations.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pad Underwater Vibrations.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 182: 2x	PML FR Pluck Bells.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pluck Bells.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pluck Bells.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 183: 2x	PML FR Pluck Quick.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pluck Quick.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pluck Quick.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 184: 2x	PML FR Pluck Shimmer.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR Pluck Shimmer.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR Pluck Shimmer.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 185: 2x	PML FR SFX 16th Melodic Noise Hats.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX 16th Melodic Noise Hats.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX 16th Melodic Noise Hats.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 186: 2x	PML FR SFX 16th Noise Hats.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX 16th Noise Hats.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX 16th Noise Hats.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 187: 2x	PML FR SFX Dirty Thunder.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX Dirty Thunder.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX Dirty Thunder.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 188: 2x	PML FR SFX Drone.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX Drone.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX Drone.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 189: 2x	PML FR SFX Hihat.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX Hihat.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX Hihat.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 190: 2x	PML FR SFX Synthetic Groove.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX Synthetic Groove.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX Synthetic Groove.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 191: 2x	PML FR SFX Weird Metal Roll.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Organic House Essentials (FR)\\PML FR SFX Weird Metal Roll.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.15 PML Organic House Essentials by Felix Raphael\\PML FR SFX Weird Metal Roll.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 192: 2x	FR ARP 32Sprinkles.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP 32Sprinkles.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP 32Sprinkles.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 193: 2x	FR ARP Back _ Forth.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Back _ Forth.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Back _ Forth.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 194: 2x	FR ARP Castles Secret.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Castles Secret.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Castles Secret.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 195: 2x	FR ARP Fireworks.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Fireworks.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Fireworks.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 196: 2x	FR ARP Half-Half.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Half-Half.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Half-Half.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 197: 2x	FR ARP Lier.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Lier.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Lier.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 198: 2x	FR ARP Moonshine.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Moonshine.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Moonshine.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 199: 2x	FR ARP Noisy but Sublime.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Noisy but Sublime.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Noisy but Sublime.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 200: 2x	FR ARP Noisy Mel.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Noisy Mel.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Noisy Mel.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 201: 2x	FR ARP Percussive Cycle.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Percussive Cycle.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Percussive Cycle.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 202: 2x	FR ARP Raindrops in a Cave.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Raindrops in a Cave.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Raindrops in a Cave.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 203: 2x	FR ARP Randomizer.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Randomizer.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Randomizer.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 204: 2x	FR ARP Reso Heaven.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Reso Heaven.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Reso Heaven.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 205: 2x	FR ARP Stellar.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Stellar.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Stellar.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 206: 2x	FR ARP The End.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP The End.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP The End.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 207: 2x	FR ARP Whats in the Background.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR ARP Whats in the Background.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR ARP Whats in the Background.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 208: 2x	FR BASS 2Octaves.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS 2Octaves.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS 2Octaves.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 209: 2x	FR BASS Airy Flange.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Airy Flange.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Airy Flange.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 210: 2x	FR BASS Deep and Short.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Deep and Short.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Deep and Short.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 211: 2x	FR BASS Deep Down.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Deep Down.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Deep Down.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 212: 2x	FR BASS EnvSus.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS EnvSus.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS EnvSus.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 213: 2x	FR BASS Epic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Epic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Epic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 214: 2x	FR BASS Forward.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Forward.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Forward.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 215: 2x	FR BASS Growl.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Growl.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Growl.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 216: 2x	FR BASS Hrooms.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Hrooms.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Hrooms.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 217: 2x	FR BASS Is it a Bass.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Is it a Bass.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Is it a Bass.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 218: 2x	FR BASS Junish.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Junish.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Junish.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 219: 2x	FR BASS Light Melos.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Light Melos.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Light Melos.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 220: 2x	FR BASS Metallic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Metallic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Metallic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 221: 2x	FR BASS Ohm.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Ohm.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Ohm.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 222: 2x	FR BASS Phasy.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Phasy.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Phasy.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 223: 2x	FR BASS Proprog.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Proprog.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Proprog.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 224: 2x	FR Bass Push it.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR Bass Push it.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR Bass Push it.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 225: 2x	FR BASS Rider.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Rider.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Rider.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 226: 2x	FR BASS Same old Wobbler.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Same old Wobbler.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Same old Wobbler.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 227: 2x	FR BASS Shot.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Shot.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Shot.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 228: 2x	FR BASS Simple.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Simple.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Simple.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 229: 2x	FR BASS Soft Noise.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Soft Noise.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Soft Noise.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 230: 2x	FR BASS Subby Tail.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Subby Tail.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Subby Tail.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 231: 2x	FR BASS Swingin.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Swingin.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Swingin.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 232: 2x	FR BASS Uber.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Uber.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Uber.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 233: 2x	FR BASS Warmth.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR BASS Warmth.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR BASS Warmth.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 234: 2x	FR CHORD Almost Dry.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR CHORD Almost Dry.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR CHORD Almost Dry.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 235: 2x	FR CHORD Gong.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR CHORD Gong.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR CHORD Gong.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 236: 2x	FR CHORD Ish.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR CHORD Ish.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR CHORD Ish.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 237: 2x	FR CHORD Lesar.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR CHORD Lesar.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR CHORD Lesar.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 238: 2x	FR CHORD Nintando.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR CHORD Nintando.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR CHORD Nintando.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 239: 2x	FR CHORD Plenat.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR CHORD Plenat.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR CHORD Plenat.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 240: 2x	FR DR Electrified Toms.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Electrified Toms.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Electrified Toms.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 241: 2x	FR DR Hats.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Hats.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Hats.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 242: 2x	FR DR Noise Hats.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Noise Hats.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Noise Hats.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 243: 2x	FR DR Percussive Exo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Percussive Exo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Percussive Exo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 244: 2x	FR DR Running Storm.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Running Storm.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Running Storm.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 245: 2x	FR DR Swoosh.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Swoosh.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Swoosh.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 246: 2x	FR DR Tonal Groove.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR DR Tonal Groove.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR DR Tonal Groove.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 247: 2x	FR KEYS 80s.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR KEYS 80s.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR KEYS 80s.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 248: 2x	FR KEYS Angelic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR KEYS Angelic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR KEYS Angelic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 249: 2x	FR KEYS Heavens Door.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR KEYS Heavens Door.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR KEYS Heavens Door.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 250: 2x	FR KEYS Long Attack.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR KEYS Long Attack.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR KEYS Long Attack.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 251: 2x	FR KEYS Ofl.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR KEYS Ofl.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR KEYS Ofl.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 252: 2x	FR KEYS Rolls.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR KEYS Rolls.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR KEYS Rolls.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 253: 2x	FR LEAD Astronaut.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Astronaut.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Astronaut.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 254: 2x	FR LEAD Brass.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Brass.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Brass.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 255: 2x	FR LEAD Desert.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Desert.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Desert.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 256: 2x	FR LEAD Ghosts.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Ghosts.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Ghosts.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 257: 2x	FR LEAD LFOed.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD LFOed.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD LFOed.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 258: 2x	FR LEAD Lights.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Lights.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Lights.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 259: 2x	FR LEAD Macroscope.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Macroscope.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Macroscope.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 260: 2x	FR LEAD Memories.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Memories.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Memories.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 261: 2x	FR LEAD Noisy Keys.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Noisy Keys.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Noisy Keys.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 262: 2x	FR LEAD Panflu.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Panflu.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Panflu.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 263: 2x	FR LEAD Polar Bells.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Polar Bells.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Polar Bells.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 264: 2x	FR LEAD Pull the Shots.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Pull the Shots.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Pull the Shots.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 265: 2x	FR LEAD Reese Main.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Reese Main.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Reese Main.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 266: 2x	FR LEAD Riverside.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Riverside.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Riverside.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 267: 2x	FR LEAD Sky Shimmer.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Sky Shimmer.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Sky Shimmer.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 268: 2x	FR LEAD Stripes _ Stars.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Stripes _ Stars.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Stripes _ Stars.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 269: 2x	FR LEAD Stutter Bells.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Stutter Bells.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Stutter Bells.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 270: 2x	FR LEAD Subtler.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Subtler.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Subtler.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 271: 2x	FR LEAD Trek.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Trek.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Trek.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 272: 2x	FR LEAD Up to Down.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR LEAD Up to Down.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR LEAD Up to Down.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 273: 2x	FR PAD Coming Slow.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Coming Slow.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Coming Slow.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 274: 2x	FR PAD July.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD July.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD July.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 275: 2x	FR PAD Moving.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Moving.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Moving.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 276: 2x	FR PAD Multiply.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Multiply.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Multiply.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 277: 2x	FR PAD Saw Down.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Saw Down.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Saw Down.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 278: 2x	FR PAD Schwurbel.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Schwurbel.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Schwurbel.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 279: 2x	FR PAD Shouting Angel.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Shouting Angel.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Shouting Angel.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 280: 2x	FR PAD Sunny Clouds.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Sunny Clouds.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Sunny Clouds.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 281: 2x	FR PAD Time.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Time.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Time.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 282: 2x	FR PAD Waves.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PAD Waves.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PAD Waves.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 283: 2x	FR PLUCK Belly Lead.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Belly Lead.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Belly Lead.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 284: 2x	FR PLUCK Bloom.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Bloom.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Bloom.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 285: 2x	FR PLUCK Cave Drops.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Cave Drops.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Cave Drops.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 286: 2x	FR PLUCK Chordy.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Chordy.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Chordy.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 287: 2x	FR PLUCK Gentle DC.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Gentle DC.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Gentle DC.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 288: 2x	FR PLUCK Percussive Stabby.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Percussive Stabby.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Percussive Stabby.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 289: 2x	FR PLUCK Perfect Bells.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Perfect Bells.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Perfect Bells.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 290: 2x	FR PLUCK Rythmica.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Rythmica.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Rythmica.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 291: 2x	FR PLUCK Stabon.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Stabon.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Stabon.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 292: 2x	FR PLUCK Xylophonic.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCK Xylophonic.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCK Xylophonic.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 293: 2x	FR PLUCKS Windows.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR PLUCKS Windows.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR PLUCKS Windows.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 294: 2x	FR SFX Birds Call.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Birds Call.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Birds Call.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 295: 2x	FR SFX Crickets.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Crickets.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Crickets.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 296: 2x	FR SFX Dinasor.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Dinasor.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Dinasor.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 297: 2x	FR SFX Rise to Drop.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Rise to Drop.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Rise to Drop.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 298: 2x	FR SFX Rumble in the Jungle.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Rumble in the Jungle.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Rumble in the Jungle.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 299: 2x	FR SFX Running Insects.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Running Insects.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Running Insects.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 300: 2x	FR SFX Sand.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Sand.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Sand.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 301: 2x	FR SFX Up _ Down.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Up _ Down.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Up _ Down.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 302: 2x	FR SFX Weird Fields.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SFX Weird Fields.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SFX Weird Fields.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 303: 2x	FR SYHTH 5th.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYHTH 5th.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYHTH 5th.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 304: 2x	FR SYNTH Askaban.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Askaban.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Askaban.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 305: 2x	FR SYNTH Belly Button.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Belly Button.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Belly Button.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 306: 2x	FR SYNTH Capa.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Capa.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Capa.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 307: 2x	FR SYNTH Chord Support.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Chord Support.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Chord Support.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 308: 2x	FR SYNTH Damped Hang Drum.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Damped Hang Drum.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Damped Hang Drum.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 309: 2x	FR SYNTH Groove It.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Groove It.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Groove It.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 310: 2x	FR SYNTH Lush.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Lush.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Lush.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 311: 2x	FR SYNTH Piu.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Piu.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Piu.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 312: 2x	FR SYNTH Rainbow.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Rainbow.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Rainbow.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 313: 2x	FR SYNTH Trumpat.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Trumpat.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Trumpat.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 314: 2x	FR SYNTH Wauwau.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Wauwau.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Wauwau.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 315: 2x	FR SYNTH Weird Down Sawish.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.10 PML - Diva Presets Bundle\\Melodic & Organic (FR)\\FR SYNTH Weird Down Sawish.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.16 PML x FR2 Melodic _ Organic Presets\\FR SYNTH Weird Down Sawish.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 316: 2x	LD Orion.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.1 Aiyn Zahev - Diva Digital\\LD Orion.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.18 Transcend\\Leads\\LD Orion.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 317: 2x	PD Holy Gates.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.1 Aiyn Zahev - Diva Digital\\PD Holy Gates.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.18 Transcend\\Pads\\PD Holy Gates.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 318: 2x	PD Low Bed.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.1 Aiyn Zahev - Diva Digital\\PD Low Bed.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.18 Transcend\\Pads\\PD Low Bed.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 319: 2x	BA Skinny Pulse.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.18 Transcend\\Bass Short\\BA Skinny Pulse.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.2 AZS Diva Digital Vol.2\\BA Skinny Pulse.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 320: 2x	BA Spike.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.1 Aiyn Zahev - Diva Digital\\BA Spike.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.2 AZS Diva Digital Vol.2\\BA Spike.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 321: 2x	LD Strange World.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\2.3 Diva Saur\\LD Strange World.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.2 AZS Diva Digital Vol.2\\LD Strange World.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 322: 2x	PD Waves.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\2.2 Diva Lupus II\\PD Waves.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.2 AZS Diva Digital Vol.2\\PD Waves.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 323: 2x	PL - Noise.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.21 SF - Melodic Techno Vol.3 (Diva Presets)\\PL - Noise.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.25 TPS - Nova\\PL - Noise.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 324: 2x	BS - Flash.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.25 TPS - Nova\\BS - Flash.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.26 Odyssey Presets\\BS - Flash.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 325: 2x	LD - Breathe.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.25 TPS - Nova\\LD - Breathe.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.26 Odyssey Presets\\LD - Breathe.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 326: 2x	LD - Neo.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.21 SF - Melodic Techno Vol.3 (Diva Presets)\\LD - Neo.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.26 Odyssey Presets\\LD - Neo.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 327: 2x	LD - Unknown.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.25 TPS - Nova\\LD - Unknown.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\external\\6.26 Odyssey Presets\\LD - Unknown.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 328: 2x	BT dotted afterhour 01 (mw).h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\BT dotted afterhour 01 (mw).h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Bigtone eco bank\\BT dotted afterhour 01 (mw).h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 329: 2x	BT flex butter seq (mw+vel).h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\BT flex butter seq (mw+vel).h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Bigtone eco bank\\BT flex butter seq (mw+vel).h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 330: 2x	BT juno hoovered bass (mw).h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\BT juno hoovered bass (mw).h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Bigtone eco bank\\BT juno hoovered bass (mw).h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 331: 2x	BT the master himself (at+mw+pb).h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\BT the master himself (at+mw+pb).h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Bigtone eco bank\\BT the master himself (at+mw+pb).h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 332: 2x	IW BP Strings Ensemble 1.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\IW BP Strings Ensemble 1.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Ingo Weidner\\IW BP Strings Ensemble 1.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 333: 2x	IW Jump Brass.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\IW Jump Brass.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Ingo Weidner\\IW Jump Brass.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 334: 2x	IW Jupiter High Strings.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\IW Jupiter High Strings.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Ingo Weidner\\IW Jupiter High Strings.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 335: 2x	IW Mini Detuned Saw Lead.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\IW Mini Detuned Saw Lead.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Ingo Weidner\\IW Mini Detuned Saw Lead.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 336: 2x	IW Poly6 Strings.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\IW Poly6 Strings.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Ingo Weidner\\IW Poly6 Strings.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 337: 2x	SG Chica Go.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG Chica Go.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG Chica Go.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 338: 2x	SG Crackpipe Organ.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG Crackpipe Organ.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG Crackpipe Organ.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 339: 2x	SG Miss Duality.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG Miss Duality.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG Miss Duality.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 340: 2x	SG Practicing Paganini.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG Practicing Paganini.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG Practicing Paganini.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 341: 2x	SG Rotterdam.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG Rotterdam.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG Rotterdam.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 342: 2x	SG Stra Diva Rius.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG Stra Diva Rius.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG Stra Diva Rius.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 343: 2x	SG What The Pluck.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\SG What The Pluck.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\Sjoerd van Geffen\\SG What The Pluck.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 344: 2x	JA WashingMachine.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\JA WashingMachine.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\TREASURE TROVE!\\JA WashingMachine.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 345: 2x	JS Bud Pluck.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\JS Bud Pluck.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\TREASURE TROVE!\\JS Bud Pluck.h2p']
+----------------------------------------------------------------------------------------------------
+Duplicate 346: 2x	PAK Karinanthon EP.h2p
+['C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\PAK Karinanthon EP.h2p', 'C:\\Users\\Infi\\Documents\\u-he\\Diva.data\\Presets\\Diva\\THIRD PARTY\\TREASURE TROVE!\\PAK Karinanthon EP.h2p']
+----------------------------------------------------------------------------------------------------
+Total duplicate presets: 346
+
+

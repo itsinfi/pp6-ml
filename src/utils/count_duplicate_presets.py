@@ -1,14 +1,12 @@
 import re
 
 def count_duplicate_presets(preset_files: list[str]):
-    pattern = r"[\\/]"
-
     file_names = []
     duplicates = {}
     total_duplicate_count = 0
 
     for preset_file in preset_files:
-        split_result = re.split(pattern, string=preset_file)
+        split_result = re.split(pattern=r"[\\/]", string=preset_file)
         file_name = split_result[-1]
         file_names.append(file_name)
 

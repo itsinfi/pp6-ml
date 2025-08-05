@@ -3,12 +3,15 @@ from utils import get_all_preset_files, get_preset_count, count_duplicate_preset
 import os
 from io import StringIO
 
-# TODO: write converter from fxp to h2p
 # TODO: add last preset from freshloops
 # TODO: add preset source listing file to this repository
-# TODO: fix folder structure
+# TODO: fix preset folder structure
 
 def main():
+    """
+    calculates various counts for presets, presets with and without category and duplicates and saves it as data/count_presets_output.txt
+    """
+
     preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
 
     preset_count, preset_with_tags_count, folder_specific_counts = get_preset_count(preset_files)

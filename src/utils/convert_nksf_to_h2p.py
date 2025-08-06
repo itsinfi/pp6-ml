@@ -1,11 +1,11 @@
 import traceback
 
-def convert_fxp_to_h2p(fxp_files):
-    for fxp_file in fxp_files:
-        h2p_file = fxp_file[:-3] + 'h2p'
+def convert_nksf_to_h2p(nksf_files):
+    for nksf_file in nksf_files:
+        h2p_file = nksf_file[:-4] + 'h2p'
 
         try:
-            with open(fxp_file, mode='rb') as f:
+            with open(nksf_file, mode='rb') as f:
                 lines = f.readlines()
 
             search_for = b'/*@Meta\n'
@@ -33,8 +33,8 @@ def convert_fxp_to_h2p(fxp_files):
             with open(h2p_file, mode='w', encoding='utf-8') as f:
                 f.write(''.join(decoded_lines))
             
-            print(f'Converted {fxp_file} -> {h2p_file}')
+            print(f'Converted {nksf_file} -> {h2p_file}')
 
         except Exception as e:
-            print(f'error when processing {fxp_file}: {e}')
+            print(f'error when processing {nksf_file}: {e}')
             traceback.print_exc()

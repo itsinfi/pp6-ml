@@ -4,6 +4,7 @@ import os
 from io import StringIO
 
 # TODO: fix preset folder structure
+# TODO: nks support
 
 def main():
     """
@@ -12,7 +13,7 @@ def main():
 
     preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
 
-    preset_count, preset_with_tags_count, folder_specific_counts = get_preset_count(preset_files)
+    preset_count, preset_with_tags_count, preset_partly_with_tags_count, folder_specific_counts = get_preset_count(preset_files)
     duplicates, total_duplicate_count = count_duplicate_presets(preset_files)
 
     buffer = StringIO()
@@ -20,9 +21,19 @@ def main():
 
     for i, folder_specific_count in enumerate(folder_specific_counts.items()):
         folder, stats = folder_specific_count
-        buffer.write(f'\n{i + 1} {folder}:\nPresets (total): {stats["preset_count"]}\t\tPresets (w/ tags): {stats["preset_with_tags_count"]}\t\tPresets (w/o tags): {stats["preset_count"] - stats["preset_with_tags_count"]}\n')
+        buffer.write(
+            f'\n{i + 1} {folder}:\nPresets (total): {stats["preset_count"]}'
+            f'\t\tPresets (w/ tags): {stats["preset_with_tags_count"]}'
+            f'\t\tPresets (w/ only some tags): {stats["preset_partly_with_tags_count"]}'
+            f'\t\tPresets (w/o tags): {stats["preset_count"] - stats["preset_with_tags_count"] - stats["preset_partly_with_tags_count"]}\n'
+        )
         buffer.write('-' * 100)
-    buffer.write(f'\nPresets (total): {preset_count}\t\tPresets (w/ tags): {preset_with_tags_count}\t\tPresets (w/o tags): {preset_count - preset_with_tags_count}\n\n\n')
+    buffer.write(
+        f'\nPresets (total): {preset_count}'
+        f'\t\tPresets (w/ tags): {preset_with_tags_count}'
+        f'\t\tPresets (w/ only some tags): {preset_partly_with_tags_count}'
+        f'\t\tPresets (w/o tags): {preset_count - preset_with_tags_count - preset_partly_with_tags_count}\n\n\n'
+    )
 
     for i, duplicate in enumerate(duplicates.items()):
         name, info = duplicate

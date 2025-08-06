@@ -1,8 +1,8 @@
 This is a list of all sources used for gaining a dataset of DIVA presets to train to model on.
 
-c = contains categories (e.g. bass:pluck, mono, dark etc)
-n = no categories
-p = partly categorized
+c = contains categories (all presets have tags for 'Categories', 'Features' and 'Character')
+n = no categories (none have tags for 'Categories', 'Features' and 'Character')
+p = partly categorized (only some presets w/ tags for 'Categories', 'Features' and 'Character')
 
 - 1 will vance: https://hypeddit.com/willvance/hoursintwilightfreedivapresets (p)
 - 2 the unfinished: https://www.theunfinished.co.uk/free/ (c):

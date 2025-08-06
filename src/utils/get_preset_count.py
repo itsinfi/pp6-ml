@@ -2,10 +2,10 @@ import re
 import traceback
 
 def get_preset_count(preset_files: list[str]):
-    preset_count = 0
-    preset_with_tags_count = 0
-    preset_partly_with_tags_count = 0
-    folder_specific_counts = {}
+    total_presets = 0
+    tagged_presets = 0
+    semi_tagged_presets = 0
+    folder_counts = {}
 
     for preset_file in preset_files:
         try:
@@ -15,12 +15,12 @@ def get_preset_count(preset_files: list[str]):
             with open(preset_file, mode='r', encoding='utf-8') as f:
                 lines = f.readlines()
 
-            preset_count += 1
+            total_presets += 1
             
-            if folder in folder_specific_counts:
-                folder_specific_counts[folder]['preset_count'] += 1
+            if folder in folder_counts:
+                folder_counts[folder]['total_presets'] += 1
             else:
-                folder_specific_counts[folder] = {'preset_count': 1, 'preset_with_tags_count': 0, 'preset_partly_with_tags_count': 0}
+                folder_counts[folder] = {'total_presets': 1, 'tagged_presets': 0, 'semi_tagged_presets': 0}
 
             has_categories = False
             has_features = False
@@ -29,8 +29,8 @@ def get_preset_count(preset_files: list[str]):
             for line in lines:
 
                 if has_categories and has_features and has_character:
-                    preset_with_tags_count += 1
-                    folder_specific_counts[folder]['preset_with_tags_count'] += 1
+                    tagged_presets += 1
+                    folder_counts[folder]['tagged_presets'] += 1
                     break
 
                 if not has_categories and line.startswith('Categories'):
@@ -41,11 +41,11 @@ def get_preset_count(preset_files: list[str]):
                     has_character = True
                             
             if 0 < sum([has_character, has_categories, has_features]) < 3:
-                preset_partly_with_tags_count += 1
-                folder_specific_counts[folder]['preset_partly_with_tags_count'] += 1
+                semi_tagged_presets += 1
+                folder_counts[folder]['semi_tagged_presets'] += 1
 
         except Exception as e:
             print(f'error when processing {preset_file}: {e}')
             traceback.print_exc()
     
-    return preset_count, preset_with_tags_count, preset_partly_with_tags_count, folder_specific_counts
+    return total_presets, tagged_presets, semi_tagged_presets, folder_counts

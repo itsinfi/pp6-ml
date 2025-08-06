@@ -13,33 +13,33 @@ def main():
 
     preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
 
-    preset_count, preset_with_tags_count, preset_partly_with_tags_count, folder_specific_counts = get_preset_count(preset_files)
-    duplicates, total_duplicate_count = count_duplicate_presets(preset_files)
+    total_presets, tagged_presets, semi_tagged_presets, folder_counts = get_preset_count(preset_files)
+    duplicates, total_duplicates = count_duplicate_presets(preset_files)
 
     buffer = StringIO()
     buffer.write('Output for count_presets:\n\n\n\n\n')
 
-    for i, folder_specific_count in enumerate(folder_specific_counts.items()):
-        folder, stats = folder_specific_count
+    for i, folder_count in enumerate(folder_counts.items()):
+        folder, counts = folder_count
         buffer.write(
-            f'\n{i + 1} {folder}:\nPresets (total): {stats["preset_count"]}'
-            f'\t\tPresets (w/ tags): {stats["preset_with_tags_count"]}'
-            f'\t\tPresets (w/ only some tags): {stats["preset_partly_with_tags_count"]}'
-            f'\t\tPresets (w/o tags): {stats["preset_count"] - stats["preset_with_tags_count"] - stats["preset_partly_with_tags_count"]}\n'
+            f'\n{i + 1} {folder}:\nPresets (total): {counts["total_presets"]}'
+            f'\t\tPresets (w/ tags): {counts["tagged_presets"]}'
+            f'\t\tPresets (w/ only some tags): {counts["semi_tagged_presets"]}'
+            f'\t\tPresets (w/o tags): {counts["total_presets"] - counts["tagged_presets"] - counts["semi_tagged_presets"]}\n'
         )
         buffer.write('-' * 100)
     buffer.write(
-        f'\nPresets (total): {preset_count}'
-        f'\t\tPresets (w/ tags): {preset_with_tags_count}'
-        f'\t\tPresets (w/ only some tags): {preset_partly_with_tags_count}'
-        f'\t\tPresets (w/o tags): {preset_count - preset_with_tags_count - preset_partly_with_tags_count}\n\n\n'
+        f'\nPresets (total): {total_presets}'
+        f'\t\tPresets (w/ tags): {tagged_presets}'
+        f'\t\tPresets (w/ only some tags): {semi_tagged_presets}'
+        f'\t\tPresets (w/o tags): {total_presets - tagged_presets - semi_tagged_presets}\n\n\n'
     )
 
     for i, duplicate in enumerate(duplicates.items()):
         name, info = duplicate
         buffer.write(f'\nDuplicate {i + 1}: {info["count"]}x\t{name}\n{info["files"]}\n')
         buffer.write('-' * 100)
-    buffer.write(f'\nTotal duplicate presets: {total_duplicate_count}\n\n\n')
+    buffer.write(f'\nTotal duplicate presets: {total_duplicates}\n\n\n')
 
     output = buffer.getvalue()
 

@@ -42,6 +42,9 @@ def get_preset_count(preset_files: list[str]):
 
             for line in lines:
 
+                if line.find('*/') != -1:
+                    break
+
                 if not has_categories and line.startswith('Categories'):
                     has_categories = True
                     category_tagged_presets += 1

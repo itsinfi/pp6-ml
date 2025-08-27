@@ -137,5 +137,5 @@ def main():
     normalize_columns(df_encoded, numeric_cols)
 
     # save dataframe + stats
-    df_encoded.to_parquet('dataset.parquet')
-    stats.to_csv('dataset_stats.csv')
+    df_encoded.to_parquet('data/dataset.parquet')
+    stats.to_csv('data/dataset_stats.csv')

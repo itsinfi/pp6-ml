@@ -1,6 +1,7 @@
 # Install dependencies
-1. run `conda env create -f environment.yml`
-2. run `conda run -n pp6 pip install -e .`
+1. install Miniconda: https://www.anaconda.com/docs/getting-started/miniconda/install
+2. run `conda env create -f environment.yml`
+3. run `conda run -n pp6 pip install -e .`
 
 # Run project
 run `conda run -n pp6 <executable>`

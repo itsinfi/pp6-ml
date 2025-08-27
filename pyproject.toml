@@ -6,3 +6,4 @@ version = "1.0.0"
 run_count_presets = "count_presets:main" # calculates various counts for presets, presets with and without category and duplicates and saves it as data/count_presets_output.txt
 run_convert_file_types = "convert_file_types:main" # converts presets to h2p
 read_presets = "read_presets:main" # reads presets, filters/encodes/normalizes them and saves them
+visualize_stats = "visualize_stats:main" # visualizes stats for the dataset

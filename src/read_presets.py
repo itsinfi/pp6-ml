@@ -1,5 +1,5 @@
 from config import DIVA_PRESET_DIR
-from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, one_hot_encode_columns
+from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, one_hot_encode_columns, normalize_columns
 import re
 import pandas as pd
 
@@ -127,7 +127,14 @@ def main():
     df_encoded = one_hot_encode_columns(df, columns=['tags_categories', 'tags_features', 'tags_character'])
 
     # get statistics for dataset
-    stats = df.describe()
+    stats = df_encoded.describe()
+
+    # seperate numeric and non numeric columns
+    non_numeric_cols = ['meta_name', 'meta_location', 'tags_categories', 'tags_features', 'tags_character']
+    numeric_cols = [c for c in df_encoded.columns if c not in non_numeric_cols]
+
+    # normalize numeric columns
+    normalize_columns(df_encoded, numeric_cols)
 
     # save dataframe + stats
     df_encoded.to_parquet('dataset.parquet')

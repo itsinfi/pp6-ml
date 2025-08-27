@@ -1,5 +1,5 @@
 from config import DIVA_PRESET_DIR
-from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value
+from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, one_hot_encode_columns
 import re
 import pandas as pd
 
@@ -34,85 +34,101 @@ def main():
     env_release_on_re = re.compile(r"(?mi)^\s*RelOn\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_key_follow_re = re.compile(r"(?mi)^\s*KeyFlw\s*=\s*([+-]?\d+(?:\.\d+)?)")
     
+    # read all presets
     preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
 
-    patch = {
-        'meta_name': '', # patch name
-        'meta_location': '',
-        'tags_categories': [], # type of tag
-        'tags_features': [], # type of tag
-        'tags_character': [], # type of tag
-        'env_1_attack': 0,
-        'env_1_decay': 0,
-        'env_1_sustain': 0,
-        'env_1_release': 0, # only on digital and analogue models
-        'env_1_velocity': 0,
-        'env_1_ads': 0, # model = 0
-        'env_1_analogue': 0, # model = 1
-        'env_1_digital': 0, # model = 2
-        'env_1_trigger': 0, # what the hell is this? TODO:
-        'env_1_quantize': 0, # only for digital model
-        'env_1_curve': 0, # only for digital model
-        'env_1_release_on': 0, # only for ads model
-        'env_1_key_follow': 0,
-        'env_2_attack': 0,
-        'env_2_decay': 0,
-        'env_2_sustain': 0,
-        'env_2_release': 0, # only on digital and analogue models
-        'env_2_velocity': 0,
-        'env_2_ads': 0, # model = 0
-        'env_2_analogue': 0, # model = 1
-        'env_2_digital': 0, # model = 2
-        'env_2_trigger': 0, # what the hell is this? TODO:
-        'env_2_quantize': 0, # only for digital model
-        'env_2_curve': 0, # only for digital model
-        'env_2_release_on': 0, # only for ads model
-        'env_2_key_follow': 0,
-    }
+    patches = []
 
-    with open(preset_files[420], mode='r', encoding='utf-8') as f:
-        txt = f.read()
+    for preset_file in preset_files[420:425]:
 
-    # read file location
-    patch['meta_location'] = preset_files[420]
+        # init dataset params for patch
+        patch = {
+            'meta_name': '', # patch name
+            'meta_location': '',
+            'tags_categories': [], # type of tag
+            'tags_features': [], # type of tag
+            'tags_character': [], # type of tag
+            'env_1_attack': 0,
+            'env_1_decay': 0,
+            'env_1_sustain': 0,
+            'env_1_release': 0, # only on digital and analogue models
+            'env_1_velocity': 0,
+            'env_1_model_ads': 0, # model = 0
+            'env_1_model_analogue': 0, # model = 1
+            'env_1_model_digital': 0, # model = 2
+            'env_1_trigger': 0, # what the hell is this? TODO:
+            'env_1_quantize': 0, # only for digital model
+            'env_1_curve': 0, # only for digital model
+            'env_1_release_on': 0, # only for ads model
+            'env_1_key_follow': 0,
+            'env_2_attack': 0,
+            'env_2_decay': 0,
+            'env_2_sustain': 0,
+            'env_2_release': 0, # only on digital and analogue models
+            'env_2_velocity': 0,
+            'env_2_model_ads': 0, # model = 0
+            'env_2_model_analogue': 0, # model = 1
+            'env_2_model_digital': 0, # model = 2
+            'env_2_trigger': 0, # what the hell is this? TODO:
+            'env_2_quantize': 0, # only for digital model
+            'env_2_curve': 0, # only for digital model
+            'env_2_release_on': 0, # only for ads model
+            'env_2_key_follow': 0,
+        }
 
-    # read preset name
-    name_match = re.search(name_re, preset_files[420])
-    if name_match:
-        patch['meta_name'] = name_match.group(0)
+        # read preset file
+        with open(preset_file, mode='r', encoding='utf-8') as f:
+            txt = f.read()
 
-    # read tags from meta data
-    meta_match = meta_re.search(txt)
-    if meta_match:
-        meta_data = meta_match.group(1)
+        # read file location
+        patch['meta_location'] = preset_file
 
-        patch['tags_categories'] = read_meta_tag_value(meta_data, re=tags_categories_re)
-        patch['tags_features'] = read_meta_tag_value(meta_data, re=tags_features_re)
-        patch['tags_character'] = read_meta_tag_value(meta_data, re=tags_character_re)
+        # read preset name
+        name_match = re.search(name_re, preset_file)
+        if name_match:
+            patch['meta_name'] = name_match.group(0)
 
-    # read enveleope model from envelope data
-    env_1_model, env_2_model = read_categorical_envelope_value(txt, env_re, val_re=env_model_re, encoder={'0': 0.0, '1': 0.0, '2': 0.0})
-    patch['env_1_ads'] = env_1_model['0']
-    patch['env_1_analogue'] = env_1_model['1']
-    patch['env_1_digital'] = env_1_model['2']
-    patch['env_2_ads'] = env_2_model['0']
-    patch['env_2_analogue'] = env_2_model['1']
-    patch['env_2_digital'] = env_2_model['2']
-    
-    # read numeric params from envelope data
-    patch['env_1_attack'], patch['env_2_attack'] = read_numerical_envelope_value(txt, env_re, val_re=env_attack_re)
-    patch['env_1_decay'], patch['env_2_decay'] = read_numerical_envelope_value(txt, env_re, val_re=env_decay_re)
-    patch['env_1_sustain'], patch['env_2_sustain'] = read_numerical_envelope_value(txt, env_re, val_re=env_sustain_re)
-    patch['env_1_release'], patch['env_2_release'] = read_numerical_envelope_value(txt, env_re, val_re=env_release_re)
-    patch['env_1_velocity'], patch['env_2_velocity'] = read_numerical_envelope_value(txt, env_re, val_re=env_velocity_re)
-    patch['env_1_trigger'], patch['env_2_trigger'] = read_numerical_envelope_value(txt, env_re, val_re=env_trigger_re)
-    patch['env_1_quantize'], patch['env_2_quantize'] = read_numerical_envelope_value(txt, env_re, val_re=env_quantize_re)
-    patch['env_1_curve'], patch['env_2_curve'] = read_numerical_envelope_value(txt, env_re, val_re=env_curve_re)
-    patch['env_1_release_on'], patch['env_2_release_on'] = read_numerical_envelope_value(txt, env_re, val_re=env_release_on_re)
-    patch['env_1_key_follow'], patch['env_2_key_follow'] = read_numerical_envelope_value(txt, env_re, val_re=env_key_follow_re)
+        # read tags from meta data
+        meta_match = meta_re.search(txt)
+        if meta_match:
+            meta_data = meta_match.group(1)
 
-    df = pd.DataFrame([patch])
+            patch['tags_categories'] = read_meta_tag_value(meta_data, re=tags_categories_re)
+            patch['tags_features'] = read_meta_tag_value(meta_data, re=tags_features_re)
+            patch['tags_character'] = read_meta_tag_value(meta_data, re=tags_character_re)
 
-    # TODO: decide format to use
-    df.to_csv('dataset.csv', index=False)
-    df.to_parquet('dataset.parquet')
+        # read enveleope model from envelope data with custom one hot encoder
+        env_1_model, env_2_model = read_categorical_envelope_value(txt, env_re, val_re=env_model_re, encoder={'0': 0.0, '1': 0.0, '2': 0.0})
+        patch['env_1_model_ads'] = env_1_model['0']
+        patch['env_1_model_analogue'] = env_1_model['1']
+        patch['env_1_model_digital'] = env_1_model['2']
+        patch['env_2_model_ads'] = env_2_model['0']
+        patch['env_2_model_analogue'] = env_2_model['1']
+        patch['env_2_model_digital'] = env_2_model['2']
+        
+        # read numeric params from envelope data
+        patch['env_1_attack'], patch['env_2_attack'] = read_numerical_envelope_value(txt, env_re, val_re=env_attack_re)
+        patch['env_1_decay'], patch['env_2_decay'] = read_numerical_envelope_value(txt, env_re, val_re=env_decay_re)
+        patch['env_1_sustain'], patch['env_2_sustain'] = read_numerical_envelope_value(txt, env_re, val_re=env_sustain_re)
+        patch['env_1_release'], patch['env_2_release'] = read_numerical_envelope_value(txt, env_re, val_re=env_release_re)
+        patch['env_1_velocity'], patch['env_2_velocity'] = read_numerical_envelope_value(txt, env_re, val_re=env_velocity_re)
+        patch['env_1_trigger'], patch['env_2_trigger'] = read_numerical_envelope_value(txt, env_re, val_re=env_trigger_re)
+        patch['env_1_quantize'], patch['env_2_quantize'] = read_numerical_envelope_value(txt, env_re, val_re=env_quantize_re)
+        patch['env_1_curve'], patch['env_2_curve'] = read_numerical_envelope_value(txt, env_re, val_re=env_curve_re)
+        patch['env_1_release_on'], patch['env_2_release_on'] = read_numerical_envelope_value(txt, env_re, val_re=env_release_on_re)
+        patch['env_1_key_follow'], patch['env_2_key_follow'] = read_numerical_envelope_value(txt, env_re, val_re=env_key_follow_re)
+
+        patches.append(patch)
+
+    # save dataset as dataframe
+    df = pd.DataFrame(patches)
+
+    # one hot encode tags
+    df_encoded = one_hot_encode_columns(df, columns=['tags_categories', 'tags_features', 'tags_character'])
+
+    # get statistics for dataset
+    stats = df.describe()
+
+    # save dataframe + stats
+    df_encoded.to_parquet('dataset.parquet')
+    stats.to_csv('dataset_stats.csv')

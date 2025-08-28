@@ -1,5 +1,5 @@
 from config import DIVA_PRESET_DIR
-from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, one_hot_encode_columns, normalize_columns, remove_duplicates
+from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, normalize_columns, remove_duplicates
 import re
 import pandas as pd
 
@@ -8,7 +8,7 @@ def main():
     - reads all preset files
     - filters relevant values (categories, features, character + params for both envs)
     - normalizes numerical values (min = 0 and max = 1) and one-hot-encodes categorical values
-    - saves presets incl file location as ? TODO:
+    - saves presets incl file location as parquet files
     """
 
     # regex pattern for preset name
@@ -45,9 +45,9 @@ def main():
         patch = {
             'meta_name': '', # patch name
             'meta_location': '',
-            'tags_categories': [], # type of tag
-            'tags_features': [], # type of tag
-            'tags_character': [], # type of tag
+            'tags_categories': '', # type of tag
+            'tags_features': '', # type of tag
+            'tags_character': '', # type of tag
             'env_1_attack': 0,
             'env_1_decay': 0,
             'env_1_sustain': 0,
@@ -56,7 +56,7 @@ def main():
             'env_1_model_ads': 0, # model = 0
             'env_1_model_analogue': 0, # model = 1
             'env_1_model_digital': 0, # model = 2
-            'env_1_trigger': 0, # what the hell is this? TODO:
+            'env_1_trigger': 0,
             'env_1_quantize': 0, # only for digital model
             'env_1_curve': 0, # only for digital model
             'env_1_release_on': 0, # only for ads model
@@ -69,7 +69,7 @@ def main():
             'env_2_model_ads': 0, # model = 0
             'env_2_model_analogue': 0, # model = 1
             'env_2_model_digital': 0, # model = 2
-            'env_2_trigger': 0, # what the hell is this? TODO:
+            'env_2_trigger': 0,
             'env_2_quantize': 0, # only for digital model
             'env_2_curve': 0, # only for digital model
             'env_2_release_on': 0, # only for ads model
@@ -130,19 +130,16 @@ def main():
     # remove duplicates (only based on preset name)
     df_unique = remove_duplicates(df)
 
-    # one hot encode tags
-    df_encoded = one_hot_encode_columns(df=df_unique, columns=['tags_categories', 'tags_features', 'tags_character'])
-
     # get statistics for dataset
-    stats = df_encoded.describe()
+    stats = df_unique.describe()
 
     # seperate numeric and non numeric columns
     non_numeric_cols = ['meta_name', 'meta_location', 'tags_categories', 'tags_features', 'tags_character']
-    numeric_cols = [c for c in df_encoded.columns if c not in non_numeric_cols]
+    numeric_cols = [c for c in df_unique.columns if c not in non_numeric_cols]
 
     # normalize numeric columns
-    normalize_columns(df_encoded, numeric_cols)
+    normalize_columns(df_unique, numeric_cols)
 
     # save dataframe + stats
-    df_encoded.to_parquet('data/dataset.parquet', compression='gzip')
+    df_unique.to_parquet('data/dataset.parquet', compression='gzip')
     stats.to_csv('data/dataset_stats.csv')

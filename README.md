@@ -3,7 +3,7 @@
 2. run `conda env create -f environment.yml`
 3. run `conda run -n pp6 pip install -e .`
 4. intall diva (179€ if you want to do so legally) https://u-he.com/products/diva/
-5. add your diva preset folder to the .env.example (on windows: 'C:\Users\your-name\Documents\u-he\Diva.data\Presets\Diva')
+5. copy .env.example as .env and specify your diva preset folder (on windows: 'C:\Users\your-name\Documents\u-he\Diva.data\Presets\Diva')
 6. install presets for generating dataset (see 'data/sources.txt') and put them inside the preset folder
 
 # Run project

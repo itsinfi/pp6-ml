@@ -1,5 +1,5 @@
 from config import DIVA_PRESET_DIR
-from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, one_hot_encode_columns, normalize_columns
+from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, one_hot_encode_columns, normalize_columns, remove_duplicates
 import re
 import pandas as pd
 
@@ -39,7 +39,7 @@ def main():
 
     patches = []
 
-    for preset_file in preset_files[420:425]:
+    for preset_file in preset_files:
 
         # init dataset params for patch
         patch = {
@@ -123,8 +123,11 @@ def main():
     # save dataset as dataframe
     df = pd.DataFrame(patches)
 
+    # remove duplicates (only based on preset name)
+    df_unique = remove_duplicates(df)
+
     # one hot encode tags
-    df_encoded = one_hot_encode_columns(df, columns=['tags_categories', 'tags_features', 'tags_character'])
+    df_encoded = one_hot_encode_columns(df=df_unique, columns=['tags_categories', 'tags_features', 'tags_character'])
 
     # get statistics for dataset
     stats = df_encoded.describe()

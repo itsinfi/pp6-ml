@@ -1,6 +1,6 @@
-from re import Pattern
+from typing import Dict, Pattern
 
-def read_categorical_envelope_value(txt: str, env_re: Pattern[str], val_re: Pattern[str], encoder: dict):
+def read_categorical_envelope_value(txt: str, env_re: Pattern[str], val_re: Pattern[str], encoder: Dict):
     val_1 = encoder.copy()
     val_2 = encoder.copy()
 

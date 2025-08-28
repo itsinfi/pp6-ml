@@ -1,4 +1,4 @@
-from re import Pattern
+from typing import Pattern
 
 def read_numerical_envelope_value(txt: str, env_re: Pattern[str], val_re: Pattern[str]):
     val_1 = 0

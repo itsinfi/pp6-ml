@@ -1,7 +1,8 @@
 import re
 import traceback
+from typing import List
 
-def get_preset_count(preset_files: list[str]):
+def get_preset_count(preset_files: List[str]):
     total_presets = 0
 
     tagged_presets = 0

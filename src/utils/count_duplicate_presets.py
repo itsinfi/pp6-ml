@@ -1,6 +1,7 @@
 import re
+from typing import List
 
-def count_duplicate_presets(preset_files: list[str]):
+def count_duplicate_presets(preset_files: List[str]):
     file_names = []
     duplicates = {}
     total_duplicate_count = 0

@@ -81,7 +81,11 @@ def main():
             txt = f.read()
 
         # read file location
-        patch['meta_location'] = preset_file
+        patch['meta_location'] = (
+            preset_file.lower()[len(DIVA_PRESET_DIR):]
+            if preset_file.lower().startswith(DIVA_PRESET_DIR.lower())
+            else preset_file.lower()
+        )
 
         # read preset name
         name_match = re.search(name_re, preset_file)
@@ -140,5 +144,5 @@ def main():
     normalize_columns(df_encoded, numeric_cols)
 
     # save dataframe + stats
-    df_encoded.to_parquet('data/dataset.parquet')
+    df_encoded.to_parquet('data/dataset.parquet', compression='gzip')
     stats.to_csv('data/dataset_stats.csv')

@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import MultiLabelBinarizer
+from typing import List
 
 def one_hot_encode_column(df: pd.DataFrame, column: str, mlb: MultiLabelBinarizer):
     encoded = pd.DataFrame(
@@ -9,7 +10,7 @@ def one_hot_encode_column(df: pd.DataFrame, column: str, mlb: MultiLabelBinarize
     )
     return encoded
 
-def one_hot_encode_columns(df: pd.DataFrame, columns: list[str]):
+def one_hot_encode_columns(df: pd.DataFrame, columns: List[str]):
     mlb = MultiLabelBinarizer()
     encoded_parts = [one_hot_encode_column(df, col, mlb) for col in columns]
     return pd.concat([df] + encoded_parts, axis=1)

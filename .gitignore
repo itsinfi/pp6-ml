@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.egg-info/
 data/*count_presets_output.txt
+librenderman.pyd

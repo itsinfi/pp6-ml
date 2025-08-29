@@ -24,6 +24,8 @@ def create_render_engine():
     
     # get the plugin param description
     # print('description:', re.get_plugin_parameters_description())
+    # with open('e.txt', mode='w', encoding='utf-8') as f:
+    #     f.writelines([f'{str(a)}\n' for a in re.get_plugin_parameters_description()])
 
     # override plugin parameter
     # re.override_plugin_parameter(2180, 0.27)

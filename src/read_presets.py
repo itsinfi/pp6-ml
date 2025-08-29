@@ -2,14 +2,34 @@ from config import DIVA_PRESET_DIR
 from utils import get_all_preset_files, read_meta_tag_value, read_numerical_envelope_value, read_categorical_envelope_value, normalize_columns, remove_duplicates
 import re
 import pandas as pd
+import argparse
 
 def main():
     """
+    description:
     - reads all preset files
     - filters relevant values (categories, features, character + params for both envs)
     - normalizes numerical values (min = 0 and max = 1) and one-hot-encodes categorical values
     - saves presets incl file location as parquet files
+
+    optional arguments:
+    - `--min` minimum index to start reading the presets from
+    - `--max` maximum index to end reading the presets
+    - `--dataset-name` override the default naming of 'dataset'
+    - use them like this for example: `run_read_presets --min 420 --max 450 --dataset-name dataset_30`
+        - only read presets from index 420 to 450 (30 in total)
+        - saves them as `data/dataset_30_raw.parquet`
     """
+
+    # read all presets
+    preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
+
+    # read arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--min', type=int, default=0)
+    parser.add_argument('--max', type=int, default=(len(preset_files) - 1))
+    parser.add_argument('--dataset-name', type=str, default='dataset')
+    args = parser.parse_args()
 
     # regex pattern for preset name
     name_re = r"([^\\/:*?\"<>|\r\n]+)(?=\.[^.]+$)"
@@ -33,13 +53,12 @@ def main():
     env_curve_re = re.compile(r"(?mi)^\s*Crve\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_release_on_re = re.compile(r"(?mi)^\s*RelOn\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_key_follow_re = re.compile(r"(?mi)^\s*KeyFlw\s*=\s*([+-]?\d+(?:\.\d+)?)")
-    
-    # read all presets
-    preset_files = get_all_preset_files(preset_dir=DIVA_PRESET_DIR)
 
+    # list of patches
     patches = []
 
-    for preset_file in preset_files:
+    # go through all presets to parse them
+    for preset_file in preset_files[args.min:args.max]:
 
         # init dataset params for patch
         patch = {
@@ -141,5 +160,5 @@ def main():
     normalize_columns(df_unique, numeric_cols)
 
     # save dataframe + stats
-    df_unique.to_parquet('data/dataset.parquet', compression='gzip')
-    stats.to_csv('data/dataset_stats.csv')
+    df_unique.to_parquet(f'data/{args.dataset_name}_raw.parquet', compression='gzip')
+    stats.to_csv(f'data/{args.dataset_name}_raw_stats.csv')

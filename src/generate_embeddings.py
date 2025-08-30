@@ -1,4 +1,4 @@
-from config import DIVA_PRESET_DIR
+from config import DIVA_PRESET_DIR, SAMPLE_RATE, BUFFER_SIZE, FFT_SIZE, MIDI_NOTE_PITCH, VELOCITY, NOTE_LENGTH_SECONDS, RENDER_LENGTH_SECONDS, FADE_IN_SECONDS, FADE_OUT_SECONDS
 from utils import get_all_preset_files
 from renderman import create_render_engine, render_patch
 import pandas as pd
@@ -22,7 +22,27 @@ def main():
         print(f'Error: data/{dataset_name}.parquet not found. make sure to run the script "read_presets" first before executing this script.')
         return
 
-    re = create_render_engine()
+    # create render engine for renderman
+    re = create_render_engine(SAMPLE_RATE, BUFFER_SIZE, FFT_SIZE)
 
-    print(render_patch(re))
+    # render patch audio
+    df.apply(
+        lambda row: 
+            render_patch(
+                row, 
+                re, 
+                dataset_name, 
+                DIVA_PRESET_DIR,
+                SAMPLE_RATE, 
+                MIDI_NOTE_PITCH, 
+                VELOCITY, 
+                NOTE_LENGTH_SECONDS, 
+                RENDER_LENGTH_SECONDS, 
+                FADE_IN_SECONDS, 
+                FADE_OUT_SECONDS
+            ),
+        axis=1
+    )
+
+
 

@@ -147,6 +147,9 @@ dependencies:
   - zlib=1.2.13=h8cc25b3_1
   - zstd=1.5.6=h8880b57_0
   - pip:
+      - cffi==1.15.1
       - pp6-ml==1.0.0
       - pyarrow==3.0.0
+      - pycparser==2.21
+      - soundfile==0.13.1
 prefix: C:\Users\Infi\anaconda3\envs\pp6

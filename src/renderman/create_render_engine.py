@@ -3,13 +3,7 @@ import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import librenderman as rm
 
-# TODO: move to config
-# config
-sample_rate = 44100 # in hz
-buffer_size = 512 # in number of samples
-fft_size = 512 # in number of samples
-
-def create_render_engine():
+def create_render_engine(sample_rate: int, buffer_size: int, fft_size: int):
     # create a render engine
     re = rm.RenderEngine(sample_rate, buffer_size, fft_size)
 

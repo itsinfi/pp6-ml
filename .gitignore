@@ -5,3 +5,4 @@ __pycache__/
 data/*count_presets_output.txt
 *.pyd
 *.dll
+audio/

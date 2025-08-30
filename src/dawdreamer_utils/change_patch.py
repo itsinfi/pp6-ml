@@ -14,12 +14,10 @@ def change_patch(diva: daw.PluginProcessor, file: str):
 
     for key, val in (param for param in diva.get_patch()):
         
-        #TODO:
-        # if key in DIVA_MAP:
-        #     patch.append((key, read_diva_value(lines, index=key, group=DIVA_MAP[key]['group'], key=DIVA_MAP[key]['key'], param_desc=param_desc)))
-        #     continue
+        if key in DIVA_MAP:
+            patch.append((key, read_diva_value(lines, index=key, group=DIVA_MAP[key]['group'], key=DIVA_MAP[key]['key'], param_desc=param_desc)))
+            continue
         
         patch.append((key, val))
 
-    # diva.set_patch(patch)
-    diva.set_patch(diva.get_patch())
+    diva.set_patch(patch)

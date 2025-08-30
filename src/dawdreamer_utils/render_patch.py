@@ -6,17 +6,36 @@ import numpy as np
 import soundfile as sf
 from .change_patch import change_patch
 
+
+import math
+
+def patch_to_dict(patch):
+    """Convert [(idx, val), ...] to {idx: val}."""
+    return {int(i): float(v) for i, v in patch}
+
+def diff_patches(patch_a, patch_b, abs_tol=1e-6, rel_tol=1e-12):
+    A = patch_to_dict(patch_a)
+    B = patch_to_dict(patch_b)
+
+    missing_in_b = sorted(set(A) - set(B))  # indices present in A but not in B
+    added_in_b   = sorted(set(B) - set(A))  # indices present in B but not in A
+
+    changed = {
+        i: (A[i], B[i])
+        for i in (set(A) & set(B))
+        if not math.isclose(A[i], B[i], abs_tol=abs_tol, rel_tol=rel_tol)
+    }
+    return missing_in_b, added_in_b, changed
+
 def render_patch(row: pd.DataFrame, engine: daw.RenderEngine, diva: daw.PluginProcessor, dataset_name: str):
     # change preset
-    # print(diva.get_patch()[:285])
     change_patch(diva, file=f"{DIVA_PRESET_DIR}{row['meta_location']}")
-    # print(diva.get_patch()[:285])
-
-    # config for midi
-    diva.add_midi_note(note=NOTE_PITCH, velocity=NOTE_VELOCITY, start_time=0., duration=NOTE_DURATION)
 
     # load diva into engine graph
     engine.load_graph([(diva, [])])
+
+    # config for midi
+    diva.add_midi_note(note=NOTE_PITCH, velocity=NOTE_VELOCITY, start_time=0.5, duration=NOTE_DURATION) # do not set start_time to zero, there will be no audible audio signal!
 
     # render audio
     engine.render(RENDER_DURATION)
@@ -26,17 +45,16 @@ def render_patch(row: pd.DataFrame, engine: daw.RenderEngine, diva: daw.PluginPr
 
     # convert to numpy array and make it mono
     audio_np = np.mean(audio, axis=0).astype(np.float32)
-    print('max:', audio_np.max())
 
-    # TODO: add fade in
-    # fade_in_samples = min(int(FADE_IN_DURATION * SAMPLE_RATE), len(audio))
-    # fade_in_curve = np.linspace(0.0, 1.0, fade_in_samples)
-    # audio_np[-fade_in_samples:] *= fade_in_curve
+    # add fade in
+    fade_in_samples = min(int(FADE_IN_DURATION * SAMPLE_RATE), len(audio))
+    fade_in_curve = np.linspace(0.0, 1.0, fade_in_samples)
+    audio_np[-fade_in_samples:] *= fade_in_curve
 
-    # TODO: add fade out
-    # fade_out_samples = min(int(FADE_OUT_DURATION * SAMPLE_RATE), len(audio))
-    # fade_out_curve = np.linspace(1.0, 0.0, fade_out_samples)
-    # audio_np[-fade_out_samples:] *= fade_out_curve
+    # add fade out
+    fade_out_samples = min(int(FADE_OUT_DURATION * SAMPLE_RATE), len(audio))
+    fade_out_curve = np.linspace(1.0, 0.0, fade_out_samples)
+    audio_np[-fade_out_samples:] *= fade_out_curve
     
     # create necessary directories if neccessary
     os.makedirs('audio', exist_ok=True)

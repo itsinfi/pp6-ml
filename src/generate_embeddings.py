@@ -26,5 +26,7 @@ def main():
     # render patch audio
     df.apply(lambda row: render_patch(row, engine, diva, dataset_name), axis=1)
 
+    # initialize clap model
 
-
+    # generate embeddings
+    # df.apply(lambda row: )

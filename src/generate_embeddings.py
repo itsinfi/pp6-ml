@@ -1,5 +1,5 @@
 from dawdreamer_utils import init_dawdreamer, render_patch
-from clap_utils import init_clap
+from clap_utils import init_clap, create_embeddings
 import pandas as pd
 import sys
 
@@ -28,7 +28,8 @@ def main():
     df.apply(lambda row: render_patch(row, engine, diva, dataset_name), axis=1)
 
     # initialize clap model
-    init_clap()
+    clap = init_clap()
+    print(clap)
 
     # generate embeddings
-    # df.apply(lambda row: )
+    df.apply(lambda row: create_embeddings(row, clap, dataset_name), axis=1)

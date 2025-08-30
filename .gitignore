@@ -4,3 +4,4 @@ __pycache__/
 *.egg-info/
 data/*count_presets_output.txt
 audio/
+*.pt

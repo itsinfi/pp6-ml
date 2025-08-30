@@ -4,6 +4,7 @@ import os
 load_dotenv()
 
 DIVA_PRESET_DIR: str = str(os.getenv('DIVA_PRESET_DIR'))
+CLAP_CKPT_LOCATION: str = str(os.getenv('CLAP_CKPT_LOCATION'))
 SAMPLE_RATE: int = int(os.getenv('SAMPLE_RATE'))
 BLOCK_SIZE: int = int(os.getenv('BLOCK_SIZE'))
 NOTE_PITCH: int = int(os.getenv('NOTE_PITCH'))

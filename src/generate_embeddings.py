@@ -1,6 +1,4 @@
-from config import DIVA_PRESET_DIR, SAMPLE_RATE, BUFFER_SIZE, FFT_SIZE, MIDI_NOTE_PITCH, VELOCITY, NOTE_LENGTH_SECONDS, RENDER_LENGTH_SECONDS, FADE_IN_SECONDS, FADE_OUT_SECONDS
-from utils import get_all_preset_files
-from renderman import create_render_engine, render_patch
+from dawdreamer_utils import init_dawdreamer, render_patch
 import pandas as pd
 import sys
 
@@ -23,26 +21,10 @@ def main():
         return
 
     # create render engine for renderman
-    re = create_render_engine(SAMPLE_RATE, BUFFER_SIZE, FFT_SIZE)
+    engine, diva = init_dawdreamer()
 
     # render patch audio
-    df.apply(
-        lambda row: 
-            render_patch(
-                row, 
-                re, 
-                dataset_name, 
-                DIVA_PRESET_DIR,
-                SAMPLE_RATE, 
-                MIDI_NOTE_PITCH, 
-                VELOCITY, 
-                NOTE_LENGTH_SECONDS, 
-                RENDER_LENGTH_SECONDS, 
-                FADE_IN_SECONDS, 
-                FADE_OUT_SECONDS
-            ),
-        axis=1
-    )
+    df.apply(lambda row: render_patch(row, engine, diva, dataset_name), axis=1)
 
 
 

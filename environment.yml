@@ -148,6 +148,7 @@ dependencies:
   - zstd=1.5.6=h8880b57_0
   - pip:
       - cffi==1.15.1
+      - dawdreamer==0.7.1
       - pp6-ml==1.0.0
       - pyarrow==3.0.0
       - pycparser==2.21

@@ -1,4 +1,5 @@
 from dawdreamer_utils import init_dawdreamer, render_patch
+from clap_utils import init_clap
 import pandas as pd
 import sys
 
@@ -27,6 +28,7 @@ def main():
     df.apply(lambda row: render_patch(row, engine, diva, dataset_name), axis=1)
 
     # initialize clap model
+    init_clap()
 
     # generate embeddings
     # df.apply(lambda row: )

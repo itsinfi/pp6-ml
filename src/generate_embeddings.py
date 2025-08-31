@@ -29,7 +29,8 @@ def main():
 
     # initialize clap model
     clap = init_clap()
-    print(clap)
 
     # generate embeddings
-    df.apply(lambda row: create_embeddings(row, clap, dataset_name), axis=1)
+    df_embed = df.apply(lambda row: create_embeddings(row, clap, dataset_name), axis=1)
+
+    df_embed.to_parquet(f'data/{dataset_name}_embedded.parquet')

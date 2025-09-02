@@ -4,6 +4,7 @@ from torch_utils import train, save_model
 import numpy as np
 from utils import logger
 from datetime import datetime
+import json
 
 def main():
     """
@@ -21,7 +22,7 @@ def main():
         print(f'Error: data/{dataset_name}_embedded.parquet not found. make sure to run the script "generate_embeddings" first before executing this script.')
         return
     
-    # filter input data for envelope params and save them as a numpy array
+    # read input data for envelope params and save them as a numpy array
     x_data = df[[
         'env_1_attack',
         'env_1_decay',
@@ -51,7 +52,9 @@ def main():
         'env_2_key_follow',
     ]].to_numpy().astype(np.float32)
 
-    # filter conditional data for audio and text embeddings and save them as a numpy array
+    # read conditional data for audio and text embeddings and save them as a numpy array
+    for col in ["embeddings_audio", "embeddings_tags"]:
+        df[col] = df[col].apply(lambda x: np.array(json.loads(x), dtype=np.float32))
     c_data = np.concatenate([np.stack(df[col].to_numpy()) for col in [
         'embeddings_audio',
         'embeddings_tags'
@@ -64,4 +67,8 @@ def main():
     model = train(x_data, c_data)
 
     # save model
-    save_model(model, dataset_name, name=f"cvae_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
+    save_model(
+        model,
+        dataset_name, 
+        name=f"cvae_{datetime.now().strftime('%Y%m%d_%H%M%S')}_epochs-{model['meta']['epochs']}_loss-{model['meta']['loss']:.2f}"
+    )

@@ -1,0 +1,16 @@
+name: pp6
+dependencies:
+  - python=3.12
+  - numpy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - fastparquet
+  - pip
+  - pip:
+      - dawdreamer
+      - torch
+      - laion_clap
+      - soundfile
+      - dotenv
+      - torchvision

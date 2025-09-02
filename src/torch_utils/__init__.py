@@ -1,3 +1,3 @@
-from .train import *
+from .train_cvae import *
 from .save_model import *
-from .test import *
+from .test_cvae import *

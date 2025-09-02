@@ -32,14 +32,11 @@ def main():
     c_val = read_condition_data(df_val)
     
     # run training process
-    model = train(x_train, c_train)
-
-    # validate model
-    # TODO:
+    model = train(x_train, c_train, x_val, c_val)
 
     # save model
     save_model(
         model,
         dataset_name, 
-        name=f"cvae_{datetime.now().strftime('%Y%m%d_%H%M%S')}_epochs-{model['meta']['epochs']}_loss-{model['meta']['loss']:.2f}"
+        name=f"cvae_{datetime.now().strftime('%Y%m%d_%H%M%S')}_epochs-{model['meta']['epochs']}_t-loss-{model['meta']['train_loss']:.2f}_v-loss-{model['meta']['val_loss']:.2f}"
     )

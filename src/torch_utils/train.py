@@ -8,19 +8,26 @@ from utils import logger
 import numpy as np
 from datetime import datetime
 
-def train(x_data: np.ndarray[np.ndarray], c_data: np.ndarray[np.ndarray]):
+def train(
+    x_train: np.ndarray[np.ndarray[np.float32]],
+    c_train: np.ndarray[np.ndarray[np.float32]],
+    x_val: np.ndarray[np.ndarray[np.float32]],
+    c_val: np.ndarray[np.ndarray[np.float32]]
+):
     """
     - handles the training process for the cvae
     - basic implementation based on https://www.codegenes.net/blog/cvae-pytorch/
     """
 
-    # convert dataset to torch tensor
-    x_tensor = torch.tensor(x_data, dtype=torch.float32)
-    c_tensor = torch.tensor(c_data, dtype=torch.float32)
+    # convert datasets to torch tensor
+    x_train_tensor = torch.tensor(x_train, dtype=torch.float32)
+    c_train_tensor = torch.tensor(c_train, dtype=torch.float32)
+    x_val_tensor = torch.tensor(x_val, dtype=torch.float32)
+    c_val_tensor = torch.tensor(c_val, dtype=torch.float32)
 
     # calculate dataset dimensions
-    input_dim = x_tensor.shape[1]
-    cond_dim = c_tensor.shape[1]
+    input_dim = x_train_tensor.shape[1]
+    cond_dim = c_train_tensor.shape[1]
     latent_dim = 128
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
@@ -31,12 +38,14 @@ def train(x_data: np.ndarray[np.ndarray], c_data: np.ndarray[np.ndarray]):
     torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
-    g = torch.Generator()
-    g.manual_seed(seed)
 
     # initialize training loader
-    dataset = TensorDataset(x_tensor, c_tensor)
-    train_loader = DataLoader(dataset, batch_size=64, shuffle=False, generator=g)
+    train_dataset = TensorDataset(x_train_tensor, c_train_tensor)
+    train_loader = DataLoader(train_dataset, batch_size=64, shuffle=False)
+
+    # initialize validation loader
+    val_dataset = TensorDataset(x_val_tensor, c_val_tensor)
+    val_loader = DataLoader(val_dataset, batch_size=64, shuffle=False)
 
     # initialize model and weights
     model = CVAE(input_dim, cond_dim, latent_dim)
@@ -51,42 +60,77 @@ def train(x_data: np.ndarray[np.ndarray], c_data: np.ndarray[np.ndarray]):
     es_min_delta: float = 1e-4
 
     # values to track best model and early stopping
-    best_loss = float('inf')
+    final_train_loss = float('inf')
+    final_val_loss = float('inf')
     best_epoch = 0
     epochs_no_improve = 0
 
     # training process
     for epoch in range(max_epochs):
+
+        # TRAINING PHASE -------------------------------------------------------------------------------------------------------------
+        model.train()
+
         # initialize loss values
         train_total_loss, train_bce_loss, train_kld_loss = 0.0, 0.0, 0.0
         
         # iterate through dataset
-        for x, c in train_loader:
-            x = x.view(-1, input_dim)
+        for x_train_batch, c_train_batch in train_loader:
+            x_train_batch = x_train_batch.view(-1, input_dim)
 
-            # core operations for training prcess
+            # train batch
             optimizer.zero_grad()
-            recon_x, mu, logvar = model(x, c)
-            total_loss, bce_loss, kld_loss = calc_loss(recon_x, x, mu, logvar)
-            total_loss.backward()
+            recon_train, mu_train, logvar_train = model(x_train_batch, c_train_batch)
+            train_total_loss, train_bce_loss, train_kld_loss = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
+            train_total_loss.backward()
             optimizer.step()
             
-            # track loss values
-            train_total_loss += total_loss.item()
-            train_bce_loss += bce_loss.item()
-            train_kld_loss += kld_loss.item()
+            # track training loss values
+            train_total_loss += train_total_loss.item()
+            train_bce_loss += train_bce_loss.item()
+            train_kld_loss += train_kld_loss.item()
 
-        # output loss
-        num_batches = len(train_loader)
-        epoch_total_loss = train_total_loss / num_batches
+        # calc training loss
+        num_train_batches = len(train_loader)
+        train_loss_epoch = train_total_loss / num_train_batches
+
+        # VALIDATION PHASE -----------------------------------------------------------------------------------------------------
+        model.eval()
+
+        # initialize validation loss
+        val_total_loss = 0.0
+
+        with torch.no_grad():
+            for x_val_batch, c_val_batch in val_loader:
+                x_val_batch = x_val_batch.view(-1, input_dim)
+
+                # validate batch
+                recon_val, mu_val, logvar_val = model(x_val_batch, c_val_batch)
+                val_total_loss, val_bce_loss, val_kld_loss = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
+
+                # track validation loss
+                val_total_loss += val_total_loss.item()
+
+        # calc validation loss
+        num_val_batches = len(val_loader)
+        val_loss_epoch = val_total_loss / num_val_batches
+
+        # log epoch stats
         logger.info(
-            f"Epoch {epoch + 1}: Total Loss={epoch_total_loss:.4f}, "
-            f"BCE={(train_bce_loss / num_batches):.4f}, KLD={(train_kld_loss / num_batches):.4f}"
+            f"Epoch {epoch + 1}:\n"
+            f"Train Loss->{train_loss_epoch:.4f}, "
+            f"Train BCE->{(train_bce_loss / num_train_batches):.4f}, Train KLD->{(train_kld_loss / num_train_batches):.4f}\n"
+            f"Validation Loss->{val_loss_epoch:.4f}, "
+            f"Val BCE->{(val_bce_loss / num_train_batches):.4f}, Val KLD->{(val_kld_loss / num_train_batches):.4f}\n"
+            f"{'-' * 50}"
         )
 
-        # early stopping: track epochs with no improvement
-        if best_loss - epoch_total_loss > es_min_delta:
-            best_loss = epoch_total_loss
+        # EARLY STOPPING -------------------------------------------------------------------------
+
+        # track epochs with no or little validation loss improvement
+        if final_val_loss - val_loss_epoch > es_min_delta:
+            final_train_loss = train_total_loss
+            final_val_loss = val_total_loss
             epochs_no_improve = 0
 
             # save the best state of the model
@@ -105,7 +149,8 @@ def train(x_data: np.ndarray[np.ndarray], c_data: np.ndarray[np.ndarray]):
         'model_sate_dict': best_model_state,
         'meta': {
             'datetime': datetime.now().isoformat(),
-            'loss': best_loss,
+            'train_loss': final_train_loss,
+            'val_loss': final_val_loss,
             'input_dim': input_dim,
             'cond_dim': cond_dim,
             'latent_dim': latent_dim,

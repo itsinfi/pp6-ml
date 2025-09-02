@@ -24,9 +24,19 @@ def train(x_data: np.ndarray[np.ndarray], c_data: np.ndarray[np.ndarray]):
     latent_dim = 128
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
+    # apply a fixed seed to minimize randomness
+    seed = 42
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    g = torch.Generator()
+    g.manual_seed(seed)
+
     # initialize training loader
     dataset = TensorDataset(x_tensor, c_tensor)
-    train_loader = DataLoader(dataset, batch_size=64, shuffle=True)
+    train_loader = DataLoader(dataset, batch_size=64, shuffle=False, generator=g)
 
     # initialize model and weights
     model = CVAE(input_dim, cond_dim, latent_dim)

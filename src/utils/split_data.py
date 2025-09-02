@@ -13,8 +13,8 @@ def split_data(df: pd.DataFrame, train_perc: float = 0.8, val_perc: float = 0.1,
     df = df.iloc[hashed.sort_values().index]
 
     # split dataset
-    df_train = df.iloc[:(train_perc * len(df))]
-    df_val = df.iloc[(train_perc * len(df)):(val_perc * len(df) + train_perc)]
-    df_test = df.iloc[(val_perc * len(df) + train_perc):]
+    df_train = df.iloc[:int(train_perc * len(df))]
+    df_val = df.iloc[int(train_perc * len(df)):int((train_perc + val_perc) * len(df))]
+    df_test = df.iloc[int((train_perc + val_perc) * len(df)):]
 
     return df_train, df_val, df_test

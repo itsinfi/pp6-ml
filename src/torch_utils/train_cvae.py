@@ -8,7 +8,7 @@ from utils import logger
 import numpy as np
 from datetime import datetime
 
-def train(
+def train_cvae(
     x_train: np.ndarray[np.ndarray[np.float32]],
     c_train: np.ndarray[np.ndarray[np.float32]],
     x_val: np.ndarray[np.ndarray[np.float32]],
@@ -146,7 +146,7 @@ def train(
 
     # return the best model
     return {
-        'model_sate_dict': best_model_state,
+        'model_state_dict': best_model_state,
         'meta': {
             'datetime': datetime.now().isoformat(),
             'train_loss': final_train_loss,

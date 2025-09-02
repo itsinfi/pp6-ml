@@ -1,12 +1,12 @@
 import sys
 import pandas as pd
-from torch_utils import train, save_model
-from utils import logger, read_input_data, read_condition_data, split_data
+from torch_utils import train_cvae, save_model, test_cvae
+from utils import read_input_data, read_condition_data, split_data
 from datetime import datetime
 
 def main():
     """
-    handles training the cvae model
+    handles training, validating and testing the cvae model
 
     optional argument: dataset name (use it like this: 'run_train_cvae my_cool_dataset_name')
     """
@@ -21,18 +21,23 @@ def main():
         return
     
     # split data
-    df_train, df_val, _ = split_data(df)
+    df_train, df_val, df_test = split_data(df)
     
     # read input data for envelope params and save them as a numpy array
     x_train = read_input_data(df_train)
     x_val = read_input_data(df_val)
+    x_test = read_input_data(df_test)
 
     # read conditional data for audio and text embeddings and save them as a numpy array
     c_train = read_condition_data(df_train)
     c_val = read_condition_data(df_val)
+    c_test = read_condition_data(df_test)
     
-    # run training process
-    model = train(x_train, c_train, x_val, c_val)
+    # run training (incl. validation)
+    model = train_cvae(x_train, c_train, x_val, c_val)
+
+    # run test
+    test_cvae(x_test, c_test, model_state_dict=model['model_state_dict'], latent_dim=model['meta']['latent_dim'])
 
     # save model
     save_model(

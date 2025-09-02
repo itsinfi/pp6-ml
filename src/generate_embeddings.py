@@ -6,7 +6,7 @@ import sys
 def main():
     """
     this script basically does two things
-    - record audio for each preset via renderman
+    - record audio for each preset via dawdreamer
     - generate embeddings with clap out of audio and text tags if available via laion-clap
 
     optional argument: dataset name (use it like this: 'run_visualize_stats my_cool_dataset_name')
@@ -21,7 +21,7 @@ def main():
         print(f'Error: data/{dataset_name}.parquet not found. make sure to run the script "read_presets" first before executing this script.')
         return
 
-    # create render engine for renderman
+    # create render engine for dawdreamer
     engine, diva = init_dawdreamer()
 
     # render patch audio

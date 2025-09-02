@@ -10,3 +10,4 @@ from .one_hot_encode_columns import one_hot_encode_columns
 from .normalize_columns import *
 from .remove_duplicates import *
 from .read_diva_value import *
+from .logger import logger

@@ -8,3 +8,4 @@ run_convert_file_types = "convert_file_types:main" # converts presets to h2p for
 run_read_presets = "read_presets:main" # reads presets, filters/encodes/normalizes them and saves them
 run_visualize_stats = "visualize_stats:main" # visualizes stats for the dataset
 run_generate_embeddings = "generate_embeddings:main" # render audio for presets via renderman and then generate embeddings via laion clap
+run_train_cvae = "train_cvae:main" # training script for the cvae model

@@ -48,7 +48,6 @@ def main():
     env_release_re = re.compile(r"(?mi)^\s*Rel\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_velocity_re = re.compile(r"(?mi)^\s*Vel\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_model_re = re.compile(r"(?mi)^\s*Model\s*=\s*([+-]?\d+(?:\.\d+)?)")
-    env_trigger_re = re.compile(r"(?mi)^\s*Trig\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_quantize_re = re.compile(r"(?mi)^\s*Quant\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_curve_re = re.compile(r"(?mi)^\s*Crve\s*=\s*([+-]?\d+(?:\.\d+)?)")
     env_release_on_re = re.compile(r"(?mi)^\s*RelOn\s*=\s*([+-]?\d+(?:\.\d+)?)")
@@ -75,7 +74,6 @@ def main():
             'env_1_model_ads': 0, # model = 0
             'env_1_model_analogue': 0, # model = 1
             'env_1_model_digital': 0, # model = 2
-            'env_1_trigger': 0,
             'env_1_quantize': 0, # only for digital model
             'env_1_curve': 0, # only for digital model
             'env_1_release_on': 0, # only for ads model
@@ -88,7 +86,6 @@ def main():
             'env_2_model_ads': 0, # model = 0
             'env_2_model_analogue': 0, # model = 1
             'env_2_model_digital': 0, # model = 2
-            'env_2_trigger': 0,
             'env_2_quantize': 0, # only for digital model
             'env_2_curve': 0, # only for digital model
             'env_2_release_on': 0, # only for ads model
@@ -135,7 +132,6 @@ def main():
         patch['env_1_sustain'], patch['env_2_sustain'] = read_numerical_envelope_value(txt, env_re, val_re=env_sustain_re)
         patch['env_1_release'], patch['env_2_release'] = read_numerical_envelope_value(txt, env_re, val_re=env_release_re)
         patch['env_1_velocity'], patch['env_2_velocity'] = read_numerical_envelope_value(txt, env_re, val_re=env_velocity_re)
-        patch['env_1_trigger'], patch['env_2_trigger'] = read_numerical_envelope_value(txt, env_re, val_re=env_trigger_re)
         patch['env_1_quantize'], patch['env_2_quantize'] = read_numerical_envelope_value(txt, env_re, val_re=env_quantize_re)
         patch['env_1_curve'], patch['env_2_curve'] = read_numerical_envelope_value(txt, env_re, val_re=env_curve_re)
         patch['env_1_release_on'], patch['env_2_release_on'] = read_numerical_envelope_value(txt, env_re, val_re=env_release_on_re)
@@ -149,16 +145,16 @@ def main():
     # remove duplicates (only based on preset name)
     df_unique = remove_duplicates(df)
 
-    # get statistics for dataset
-    stats = df_unique.describe()
-
     # seperate numeric and non numeric columns
     non_numeric_cols = ['meta_name', 'meta_location', 'tags_categories', 'tags_features', 'tags_character']
     numeric_cols = [c for c in df_unique.columns if c not in non_numeric_cols]
 
     # normalize numeric columns
-    normalize_columns(df_unique, numeric_cols)
+    df_normalized = normalize_columns(df_unique, numeric_cols)
+
+    # get statistics for dataset
+    stats = df_normalized.describe()
 
     # save dataframe + stats
-    df_unique.to_parquet(f'data/{args.dataset_name}_raw.parquet', compression='gzip')
-    stats.to_csv(f'data/{args.dataset_name}_raw_stats.csv')
+    df_normalized.to_parquet(f'data/{args.dataset_name}.parquet', compression='gzip')
+    stats.to_csv(f'data/{args.dataset_name}_stats.csv')

@@ -12,7 +12,7 @@ def main():
     optional argument: dataset name (use it like this: 'run_visualize_stats my_cool_dataset_name')
     """
 
-    dataset_name = str(sys.argv[1]) if len(sys.argv) > 1 else 'dataset_raw'
+    dataset_name = str(sys.argv[1]) if len(sys.argv) > 1 else 'dataset'
 
     # read dataset
     try:

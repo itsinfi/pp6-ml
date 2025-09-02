@@ -283,3 +283,6 @@ DIVA_MAP = {
     # midi ccs
     # program
 }
+"""
+maps all dawdreamer indexes to the used group and key namings inside of .h2p diva presets
+"""

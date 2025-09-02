@@ -11,10 +11,10 @@ def read_categorical_envelope_value(txt: str, env_re: Pattern[str], val_re: Patt
             try:
                 if env_num == '1':
                     val = val_match.group(1)
-                    val_1[val] = float(val)
+                    val_1[val] = 1
                 elif env_num == '2':
                     val = val_match.group(1)
-                    val_2[val] = float(val)
+                    val_2[val] = 1
             
             except ValueError as err:
                 print(err)

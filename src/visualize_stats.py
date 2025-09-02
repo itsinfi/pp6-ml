@@ -10,7 +10,7 @@ def main():
     optional argument: dataset name (use it like this: 'run_visualize_stats my_cool_dataset_name')
     """
 
-    dataset_name = str(sys.argv[1]) if len(sys.argv) > 1 else 'dataset_raw'
+    dataset_name = str(sys.argv[1]) if len(sys.argv) > 1 else 'dataset'
 
     # read dataset
     try:
@@ -43,5 +43,5 @@ def main():
 
     # plot and render as png
     plt.tight_layout()
-    plt.savefig('data/dataset_boxplot.png', dpi=150)
+    plt.savefig(f'data/{dataset_name}_boxplot.png', dpi=150)
     plt.close()

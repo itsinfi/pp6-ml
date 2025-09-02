@@ -44,4 +44,4 @@ def read_diva_value(lines: str, index: int, group: str, key: str, param_desc: Di
             num_steps = int(desc['numSteps'])
             return int(val) / (num_steps - 1) 
                 
-    return None
+    return 0

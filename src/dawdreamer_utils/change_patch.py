@@ -8,7 +8,8 @@ def change_patch(diva: daw.PluginProcessor, file: str):
 
     # convert param description for faster access
     param_desc = convert_parameters_description(diva.get_parameters_description())
-
+    
+    print('file:', file)
     with open(file, mode='r', encoding='utf-8') as f:
         lines = f.readlines()
 

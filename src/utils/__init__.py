@@ -13,3 +13,4 @@ from .read_diva_value import *
 from .logger import logger
 from .read_condition_data import *
 from .read_input_data import *
+from .split_data import *

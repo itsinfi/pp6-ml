@@ -1,7 +1,7 @@
 import sys
 import pandas as pd
 from torch_utils import train, save_model
-from utils import logger, read_input_data, read_condition_data
+from utils import logger, read_input_data, read_condition_data, split_data
 from datetime import datetime
 
 def main():
@@ -20,16 +20,22 @@ def main():
         print(f'Error: data/{dataset_name}_embedded.parquet not found. make sure to run the script "generate_embeddings" first before executing this script.')
         return
     
+    # split data
+    df_train, df_val, _ = split_data(df)
+    
     # read input data for envelope params and save them as a numpy array
-    x_data = read_input_data(df)
-    logger.info(f'x: {x_data[0]}')
+    x_train = read_input_data(df_train)
+    x_val = read_input_data(df_val)
 
     # read conditional data for audio and text embeddings and save them as a numpy array
-    c_data = read_condition_data(df)
-    logger.info(f'c: {c_data[0]}')
+    c_train = read_condition_data(df_train)
+    c_val = read_condition_data(df_val)
     
     # run training process
-    model = train(x_data, c_data)
+    model = train(x_train, c_train)
+
+    # validate model
+    # TODO:
 
     # save model
     save_model(

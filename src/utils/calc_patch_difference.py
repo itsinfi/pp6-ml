@@ -1,9 +1,7 @@
-import pandas as pd
+from typing import Dict
 
-def calc_patch_difference(result_patch: pd.DataFrame, actual_patch: pd.DataFrame):
+def calc_patch_difference(result_patch: Dict, actual_patch: Dict):
     diff = {}
-    for idx in result_patch.iloc[0].index:
-        actual = actual_patch.iloc[0][idx]
-        result = result_patch.iloc[0][idx]
-        diff[idx] = result - actual
+    for idx, result in result_patch.items():
+        diff[idx] = result - actual_patch[idx]
     return diff

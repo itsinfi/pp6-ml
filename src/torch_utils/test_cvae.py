@@ -21,7 +21,7 @@ def test_cvae(
     engine, diva = init_dawdreamer()
 
     # init clap
-    # clap = init_clap() TODO:
+    clap = init_clap()
 
     # convert datasets to torch tensor
     x_test_tensor = torch.tensor(x_test, dtype=torch.float32)
@@ -44,17 +44,18 @@ def test_cvae(
     clap_score_results = [] # TODO:
 
     with torch.no_grad():
-        for x, x_tensor, c_tensor, (_, df_test_row) in zip(x_test, x_test_tensor, c_test_tensor, df_test.iterrows()):
+        for x, c, df_test_row in zip(x_test_tensor, c_test_tensor, df_test.iterrows()):
+            _, df_test_row_val = df_test_row
 
             # convert to batch
-            x_tensor = x_tensor.unsqueeze(0)
-            c_tensor = c_tensor.unsqueeze(0)
+            x = x.unsqueeze(0)
+            c = c.unsqueeze(0)
 
             # start timer
             start = time.perf_counter()
 
-            # generate patch
-            recon, _, _ = model(x_tensor, c_tensor)
+            # generate patch with only text input
+            recon, _, _ = model(x, c) # TODO: add cross attention and fix this
 
             # read generated patch data
             result_patch = array_to_patch(recon.squeeze(0).numpy())
@@ -64,22 +65,29 @@ def test_cvae(
             timer_results.append(end - start)
 
             # read actual patch data
-            actual_patch = array_to_patch(x)
+            actual_patch = array_to_patch(x.squeeze(0).numpy())
             
             # calculate patch difference for each value
             patch_results.append(calc_patch_difference(result_patch, actual_patch))
 
             # read meta info
-            result_patch['meta_name'] = df_test_row['meta_name']
-            result_patch['meta_location'] = df_test_row['meta_location']
+            result_patch['meta_name'] = df_test_row_val['meta_name']
+            result_patch['meta_location'] = df_test_row_val['meta_location']
+            result_patch['tags_categories'] = df_test_row_val['tags_categories']
+            result_patch['tags_features'] = df_test_row_val['tags_features']
+            result_patch['tags_character'] = df_test_row_val['tags_character']
+
+            # convert result patch to dataframe
+            df_result_patch = pd.Series(result_patch)
 
             # calculate result patch embedding
             result_dataset_name = f'{dataset_name}_results'
-            render_patch(result_patch, engine, diva, dataset_name=result_dataset_name)
-            # create_embeddings(result_patch, clap, dataset_name=result_dataset_name) TODO:
+            render_patch(df_result_patch, engine, diva, dataset_name=result_dataset_name)
+            df_result_patch = create_embeddings(df_result_patch, clap, dataset_name=result_dataset_name)
 
             # compare to actual patch embedding
-            # TODO:
+            print(df_result_patch['embeddings_audio'])
+            print(df_test_row_val['embeddings_audio'])
 
 
     print(f"{sum(timer_results) / len(timer_results):6f} seconds")

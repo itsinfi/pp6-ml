@@ -27,9 +27,10 @@ def diff_patches(patch_a, patch_b, abs_tol=1e-6, rel_tol=1e-12):
     }
     return missing_in_b, added_in_b, changed
 
-def render_patch(row: pd.DataFrame, engine: daw.RenderEngine, diva: daw.PluginProcessor, dataset_name: str):
+def render_patch(row: pd.Series, engine: daw.RenderEngine, diva: daw.PluginProcessor, dataset_name: str):
     # change preset
-    change_patch(diva, file=f"{DIVA_PRESET_DIR}{row['meta_location']}")
+    print(f"{DIVA_PRESET_DIR}|||{row['meta_location']}")
+    change_patch(row, diva, file=f"{DIVA_PRESET_DIR}{row['meta_location']}")
 
     # load diva into engine graph
     engine.load_graph([(diva, [])])

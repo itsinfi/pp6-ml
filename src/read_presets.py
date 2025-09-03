@@ -153,9 +153,9 @@ def main():
     df_normalized = normalize_columns(df_unique, numeric_cols)
 
     # get statistics for dataset
-    stats = df_normalized.describe()
+    df_stats = df_normalized.describe()
 
     # save dataframe + stats
     df_normalized.to_parquet(f'data/{args.dataset_name}.parquet', compression='gzip')
     # df_normalized.to_csv(f'data/{args.dataset_name}.csv')
-    stats.to_csv(f'data/{args.dataset_name}_stats.csv')
+    df_stats.to_csv(f'data/{args.dataset_name}_stats.csv')

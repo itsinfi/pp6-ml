@@ -8,6 +8,8 @@ from utils import logger, calc_patch_difference
 from diva import array_to_patch
 import time
 import pandas as pd
+import json
+import os
 
 def test_cvae(
     dataset_name: str,
@@ -39,13 +41,13 @@ def test_cvae(
     # TEST PHASE --------------------------------------------------------------
     model.eval()
 
-    timer_results = []
-    patch_results = []
-    clap_score_results = [] # TODO:
+    results = []
 
     with torch.no_grad():
         for x, c, df_test_row in zip(x_test_tensor, c_test_tensor, df_test.iterrows()):
             _, df_test_row_val = df_test_row
+
+            result = {}
 
             # convert to batch
             x = x.unsqueeze(0)
@@ -62,13 +64,13 @@ def test_cvae(
 
             # stop timer
             end = time.perf_counter()
-            timer_results.append(end - start)
+            result['time'] = end - start
 
             # read actual patch data
             actual_patch = array_to_patch(x.squeeze(0).numpy())
             
             # calculate patch difference for each value
-            patch_results.append(calc_patch_difference(result_patch, actual_patch))
+            result['patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
 
             # read meta info
             result_patch['meta_name'] = df_test_row_val['meta_name']
@@ -86,13 +88,26 @@ def test_cvae(
             df_result_patch = create_embeddings(df_result_patch, clap, dataset_name=result_dataset_name)
 
             # compare to actual patch embedding
-            print(df_result_patch['embeddings_audio'])
-            print(df_test_row_val['embeddings_audio'])
+            result_embed = np.array(json.loads(df_result_patch['embeddings_audio']), dtype=np.float32)
+            actual_embed = df_test_row_val['embeddings_audio']
+            cos_sim = np.dot(result_embed, actual_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_embed))
+            result['text_clap_score'] = cos_sim
 
+            # append result
+            results.append(result)
 
-    print(f"{sum(timer_results) / len(timer_results):6f} seconds")
-    print(patch_results)
+    print(results)
 
-    # TODO: convert results to dataframe, save them and their stats
+    # convert results to dataframe
+    df_results = pd.json_normalize(results)
+
+    # calculate stats
+    df_stats = df_results.describe()
+
+    # save results + stats
+    os.makedirs('results', exist_ok=True)
+    os.makedirs(f'results/{dataset_name}', exist_ok=True)
+    df_results.to_parquet(f'results/cvae_{dataset_name}_results.parquet', compression='gzip')
+    df_stats.to_csv(f'results/cvae_{dataset_name}_results_stats.csv')
 
 

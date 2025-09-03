@@ -21,7 +21,7 @@ def read_diva_value(lines: str, index: int, group: str, key: str, param_desc: Di
                 return (float(val) - min) / (max - min)
             
             if key == 'Module':
-                if val.startswith("'Chorus"):
+                if val.startswith("'Chorus") or val.startswith("'Distortion"):
                     val = 0
                 elif val.startswith("'Phaser"):
                     val = 1

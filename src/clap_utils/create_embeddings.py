@@ -4,6 +4,8 @@ import numpy as np
 import json
 
 def create_embeddings(row: pd.DataFrame, clap: lc.CLAP_Module, dataset_name: str):
+    print('file:', row['meta_location'])
+
     # generate audio embedding
     audio_file = f"audio/{dataset_name}/{row['meta_name']}.wav"
     audio_embed = clap.get_audio_embedding_from_filelist([audio_file], use_tensor=False)
@@ -17,6 +19,6 @@ def create_embeddings(row: pd.DataFrame, clap: lc.CLAP_Module, dataset_name: str
         tags_embed = clap.get_text_embedding(tags, use_tensor=False)
         row['embeddings_tags'] = json.dumps(tags_embed[0].astype(np.float32).tolist())
     else:
-        row['embeddings_tags'] = json.dumps(np.zeros(clap.text_embeddings_dim, dtype=np.float32))
+        row['embeddings_tags'] = json.dumps(np.zeros(512, dtype=np.float32).tolist())
 
     return row

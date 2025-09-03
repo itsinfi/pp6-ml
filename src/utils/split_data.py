@@ -10,7 +10,7 @@ def split_data(df: pd.DataFrame, train_perc: float = 0.8, val_perc: float = 0.1,
     hashed = df.index.to_series().apply(lambda x: int(hashlib.sha1(str(x).encode()).hexdigest(), 16))
 
     # shuffle input (will always be the same output)
-    df = df.iloc[hashed.sort_values().index]
+    df = df.iloc[hashed.argsort()]
 
     # split dataset
     df_train = df.iloc[:int(train_perc * len(df))]

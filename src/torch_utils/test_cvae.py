@@ -96,8 +96,6 @@ def test_cvae(
             # append result
             results.append(result)
 
-    print(results)
-
     # convert results to dataframe
     df_results = pd.json_normalize(results)
 
@@ -109,5 +107,3 @@ def test_cvae(
     os.makedirs(f'results/{dataset_name}', exist_ok=True)
     df_results.to_parquet(f'results/cvae_{dataset_name}_results.parquet', compression='gzip')
     df_stats.to_csv(f'results/cvae_{dataset_name}_results_stats.csv')
-
-

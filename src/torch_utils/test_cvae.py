@@ -4,15 +4,18 @@ from typing import Dict
 import numpy as np
 from .cvae import CVAE
 import torch
-from utils import logger
-from diva import array_to_patch, DIVA_MAP
+from utils import logger, calc_patch_difference
+from diva import array_to_patch
 import time
+import pandas as pd
 
 def test_cvae(
+    dataset_name: str,
     x_test: np.ndarray[np.ndarray[np.float32]], 
     c_test: np.ndarray[np.ndarray[np.float32]],
+    df_test: pd.DataFrame,
     model_state_dict: Dict,
-    latent_dim: int
+    latent_dim: int,
 ):
     # create render engine for renderman
     engine, diva = init_dawdreamer()
@@ -41,7 +44,8 @@ def test_cvae(
     clap_score_results = [] # TODO:
 
     with torch.no_grad():
-        for x, x_tensor, c_tensor in zip(x_test, x_test_tensor, c_test_tensor):
+        for x, x_tensor, c_tensor, (_, df_test_row) in zip(x_test, x_test_tensor, c_test_tensor, df_test.iterrows()):
+
             # convert to batch
             x_tensor = x_tensor.unsqueeze(0)
             c_tensor = c_tensor.unsqueeze(0)
@@ -63,19 +67,24 @@ def test_cvae(
             actual_patch = array_to_patch(x)
             
             # calculate patch difference for each value
-            diff = {}
-            for idx, result in result_patch.items():
-                actual = actual_patch[idx]
-                diff[f"{DIVA_MAP[idx]['group']}_{DIVA_MAP[idx]['key']}"] = result - actual
-            patch_results.append(diff)
+            patch_results.append(calc_patch_difference(result_patch, actual_patch))
+
+            # read meta info
+            result_patch['meta_name'] = df_test_row['meta_name']
+            result_patch['meta_location'] = df_test_row['meta_location']
 
             # calculate result patch embedding
-            # render_patch() TODO:
+            result_dataset_name = f'{dataset_name}_results'
+            render_patch(result_patch, engine, diva, dataset_name=result_dataset_name)
+            # create_embeddings(result_patch, clap, dataset_name=result_dataset_name) TODO:
 
-            # calculate actual patch embedding
+            # compare to actual patch embedding
+            # TODO:
 
 
     print(f"{sum(timer_results) / len(timer_results):6f} seconds")
     print(patch_results)
+
+    # TODO: convert results to dataframe, save them and their stats
 
 

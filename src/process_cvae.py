@@ -37,11 +37,19 @@ def main():
     model = train_cvae(x_train, c_train, x_val, c_val)
 
     # run test
-    test_cvae(x_test, c_test, model_state_dict=model['model_state_dict'], latent_dim=model['meta']['latent_dim'])
+    test_cvae(
+        dataset_name, 
+        x_test, 
+        c_test, 
+        df_test,
+        model_state_dict=model['model_state_dict'], 
+        latent_dim=model['meta']['latent_dim']
+    )
 
     # save model
     save_model(
         model,
         dataset_name, 
-        name=f"cvae_{datetime.now().strftime('%Y%m%d_%H%M%S')}_epochs-{model['meta']['epochs']}_t-loss-{model['meta']['train_loss']:.2f}_v-loss-{model['meta']['val_loss']:.2f}"
+        name=f"cvae_{datetime.now().strftime('%Y%m%d_%H%M%S')}_epochs-{model['meta']['epochs']}"
+        f"_t-loss-{model['meta']['train_loss']:.2f}_v-loss-{model['meta']['val_loss']:.2f}"
     )

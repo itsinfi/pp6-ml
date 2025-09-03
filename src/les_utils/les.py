@@ -42,8 +42,8 @@ def les(
     key = jax.random.key(0)
     state = les.init(key, mean, params)
 
-    for idx in range(1, iterations + 1):
-        print(f'iteration {idx}/{iterations}')
+    for i in range(1, iterations + 1):
+        print(f'iteration {i}/{iterations}')
 
         # generate canidates
         key, key_ask, key_tell = jax.random.split(key, 3)

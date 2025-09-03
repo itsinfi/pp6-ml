@@ -36,7 +36,7 @@ def test_les(
         solution = les(c[512:], df_test_row_val, clap, engine, diva)
 
         # read generated patch data
-        result_patch = array_to_patch(solution)
+        result_patch = array_to_patch(np.array(solution))
 
         # stop timer
         end = time.perf_counter()

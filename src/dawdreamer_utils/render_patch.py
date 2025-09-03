@@ -29,7 +29,7 @@ def diff_patches(patch_a, patch_b, abs_tol=1e-6, rel_tol=1e-12):
 
 def render_patch(row: pd.Series, engine: daw.RenderEngine, diva: daw.PluginProcessor, dataset_name: str):
     # change preset
-    print(f"{DIVA_PRESET_DIR}|||{row['meta_location']}")
+    print(f"{DIVA_PRESET_DIR}{row['meta_location']}")
     change_patch(row, diva, file=f"{DIVA_PRESET_DIR}{row['meta_location']}")
 
     # load diva into engine graph

@@ -9,3 +9,4 @@ run_read_presets = "read_presets:main" # reads presets, filters/encodes/normaliz
 run_visualize_stats = "visualize_stats:main" # visualizes stats for the dataset
 run_generate_embeddings = "generate_embeddings:main" # render audio for presets via dawdreamer and then generate embeddings via laion clap
 run_process_cvae = "process_cvae:main" # train, validate and test a cvae model
+run_process_les = "process_les:main" # test a les model

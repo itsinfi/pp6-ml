@@ -77,7 +77,7 @@ def train_cvae(
         model.train()
 
         # initialize loss values
-        train_total_loss, train_bce_loss, train_kld_loss = 0.0, 0.0, 0.0
+        train_total_loss, train_mse_loss, train_kld_loss = 0.0, 0.0, 0.0
         
         # iterate through dataset
         for x_train_batch, audio_train_batch, text_train_batch in train_loader:
@@ -90,13 +90,13 @@ def train_cvae(
                 audio=audio_train_batch,
                 text=text_train_batch,
             )
-            loss, bce, kld = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
+            loss, mse, kld = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
             loss.backward()
             optimizer.step()
             
             # track training loss values
             train_total_loss += loss.item()
-            train_bce_loss += bce.item()
+            train_mse_loss += mse.item()
             train_kld_loss += kld.item()
 
         # calc training loss
@@ -107,7 +107,7 @@ def train_cvae(
         model.eval()
 
         # initialize validation loss
-        val_total_loss, val_bce_loss, val_kld_loss = 0.0, 0.0, 0.0
+        val_total_loss, val_mse_loss, val_kld_loss = 0.0, 0.0, 0.0
 
         with torch.no_grad():
             for x_val_batch, audio_val_batch, text_val_batch in val_loader:
@@ -119,11 +119,11 @@ def train_cvae(
                     audio=audio_val_batch, 
                     text=text_val_batch,
                 )
-                loss, bce, kld = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
+                loss, mse, kld = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
 
                 # track validation loss
                 val_total_loss += loss.item()
-                val_bce_loss += bce.item()
+                val_mse_loss += mse.item()
                 val_kld_loss += kld.item()
 
         # calc validation loss
@@ -134,9 +134,9 @@ def train_cvae(
         logger.info(
             f"Epoch {epoch + 1}:\n"
             f"Train Loss->{train_loss_epoch:.4f}, "
-            f"Train BCE->{(train_bce_loss / num_train_batches):.4f}, Train KLD->{(train_kld_loss / num_train_batches):.4f}\n"
+            f"Train MSE->{(train_mse_loss / num_train_batches):.4f}, Train KLD->{(train_kld_loss / num_train_batches):.4f}\n"
             f"Validation Loss->{val_loss_epoch:.4f}, "
-            f"Val BCE->{(val_bce_loss / num_train_batches):.4f}, Val KLD->{(val_kld_loss / num_train_batches):.4f}\n"
+            f"Val MSE->{(val_mse_loss / num_train_batches):.4f}, Val KLD->{(val_kld_loss / num_train_batches):.4f}\n"
             f"{'-' * 50}"
         )
 

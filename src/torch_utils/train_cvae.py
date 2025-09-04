@@ -28,7 +28,7 @@ def train_cvae(
     # calculate dataset dimensions
     input_dim = x_train_tensor.shape[1]
     cond_dim = c_train_tensor.shape[1]
-    latent_dim = 128
+    latent_dim = 64
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
     # apply a fixed seed to minimize randomness
@@ -78,17 +78,21 @@ def train_cvae(
         for x_train_batch, c_train_batch in train_loader:
             x_train_batch = x_train_batch.view(-1, input_dim)
 
+            # split audio and text
+            audio_train = c_train_batch[:, :cond_dim // 2]
+            text_train  = c_train_batch[:, cond_dim // 2:]
+
             # train batch
             optimizer.zero_grad()
-            recon_train, mu_train, logvar_train = model(x_train_batch, c_train_batch)
-            train_total_loss, train_bce_loss, train_kld_loss = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
-            train_total_loss.backward()
+            recon_train, mu_train, logvar_train = model(x_train_batch, audio_train, text_train)
+            loss, bce, kld = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
+            loss.backward()
             optimizer.step()
             
             # track training loss values
-            train_total_loss += train_total_loss.item()
-            train_bce_loss += train_bce_loss.item()
-            train_kld_loss += train_kld_loss.item()
+            train_total_loss += loss.item()
+            train_bce_loss += bce.item()
+            train_kld_loss += kld.item()
 
         # calc training loss
         num_train_batches = len(train_loader)
@@ -98,18 +102,24 @@ def train_cvae(
         model.eval()
 
         # initialize validation loss
-        val_total_loss = 0.0
+        val_total_loss, val_bce_loss, val_kld_loss = 0.0, 0.0, 0.0
 
         with torch.no_grad():
             for x_val_batch, c_val_batch in val_loader:
                 x_val_batch = x_val_batch.view(-1, input_dim)
 
+                # split audio and text
+                audio_val = c_val_batch[:, :cond_dim // 2]
+                text_val  = c_val_batch[:, cond_dim // 2:]
+
                 # validate batch
-                recon_val, mu_val, logvar_val = model(x_val_batch, c_val_batch)
-                val_total_loss, val_bce_loss, val_kld_loss = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
+                recon_val, mu_val, logvar_val = model(x_val_batch, audio_val, text_val)
+                loss, bce, kld = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
 
                 # track validation loss
-                val_total_loss += val_total_loss.item()
+                val_total_loss += loss.item()
+                val_bce_loss += bce.item()
+                val_kld_loss += kld.item()
 
         # calc validation loss
         num_val_batches = len(val_loader)

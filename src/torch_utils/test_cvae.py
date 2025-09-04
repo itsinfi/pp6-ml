@@ -51,13 +51,14 @@ def test_cvae(
 
             # convert to batch
             x = x.unsqueeze(0)
-            c = c.unsqueeze(0)
+            # audio = c[:512].unsqueeze(0)
+            text = c[512:].unsqueeze(0)
 
             # start timer
             start = time.perf_counter()
 
             # generate patch with only text input
-            recon, _, _ = model(x, c) # TODO: add cross attention and fix this
+            recon, _, _ = model(text=text)
 
             # read generated patch data
             result_patch = array_to_patch(recon.squeeze(0).numpy())

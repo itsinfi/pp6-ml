@@ -29,9 +29,9 @@ def main():
     x_test = read_input_data(df_test)
 
     # read conditional data for audio and text embeddings and save them as a numpy array
-    audio_train, text_train = read_condition_data(df_train)
-    audio_val, text_val = read_condition_data(df_val)
-    audio_test, text_test = read_condition_data(df_test)
+    audio_train, text_train = read_condition_data(df_train, audio_zero_perc=0.3)
+    audio_val, text_val = read_condition_data(df_val, audio_zero_perc=0.3)
+    audio_test, text_test = read_condition_data(df_test, audio_zero_perc=0.0)
     
     # run training (incl. validation)
     model = train_cvae(x_train, audio_train, text_train, x_val, audio_val, text_val)

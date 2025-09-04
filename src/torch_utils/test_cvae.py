@@ -56,51 +56,93 @@ def test_cvae(
 
             # convert conditions to batch
             text = text_test.unsqueeze(0)
-            # audio = audio_test.unsqueeze(0)
+            audio = audio_test.unsqueeze(0)
 
-            # skip iteration if text is empty
-            if (torch.all(text == 0)):
-                continue
+            # skip text based iteration if text is empty
+            if not torch.all(text == 0):
 
-            # start timer
-            start = time.perf_counter()
+                # start timer
+                start = time.perf_counter()
 
-            # generate patch with only text input
-            recon, _, _ = model(text=text)
+                # generate patch with only text input
+                recon, _, _ = model(text=text)
 
-            # read generated patch data
-            result_patch = array_to_patch(recon.squeeze(0).numpy())
+                # read generated patch data
+                result_patch = array_to_patch(recon.squeeze(0).numpy())
 
-            # stop timer
-            end = time.perf_counter()
-            result['time'] = end - start
+                # stop timer
+                end = time.perf_counter()
+                result['text_time'] = end - start
 
-            # read actual patch data
-            actual_patch = array_to_patch(x.squeeze(0).numpy())
-            
-            # calculate patch difference for each value
-            result['patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
+                # read actual patch data
+                actual_patch = array_to_patch(x.squeeze(0).numpy())
+                
+                # calculate patch difference for each value
+                result['text_patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
 
-            # read meta info
-            result_patch['meta_name'] = df_test_row_val['meta_name']
-            result_patch['meta_location'] = df_test_row_val['meta_location']
-            result_patch['tags_categories'] = df_test_row_val['tags_categories']
-            result_patch['tags_features'] = df_test_row_val['tags_features']
-            result_patch['tags_character'] = df_test_row_val['tags_character']
+                # read meta info
+                result_patch['meta_name'] = df_test_row_val['meta_name']
+                result_patch['meta_location'] = df_test_row_val['meta_location']
+                result_patch['tags_categories'] = df_test_row_val['tags_categories']
+                result_patch['tags_features'] = df_test_row_val['tags_features']
+                result_patch['tags_character'] = df_test_row_val['tags_character']
 
-            # convert result patch to dataframe
-            df_result_patch = pd.Series(result_patch)
+                # convert result patch to dataframe
+                df_result_patch = pd.Series(result_patch)
 
-            # calculate result patch embedding
-            result_dataset_name = f'{dataset_name}_results'
-            render_patch(df_result_patch, engine, diva, dataset_name=result_dataset_name)
-            df_result_patch = create_embeddings(df_result_patch, clap, dataset_name=result_dataset_name)
+                # calculate result patch embedding
+                result_dataset_name = f'{dataset_name}_results'
+                render_patch(df_result_patch, engine, diva, dataset_name=result_dataset_name)
+                df_result_patch = create_embeddings(df_result_patch, clap, dataset_name=result_dataset_name)
 
-            # compare to actual patch embedding
-            result_embed = np.array(json.loads(df_result_patch['embeddings_audio']), dtype=np.float32)
-            actual_embed = df_test_row_val['embeddings_audio']
-            cos_sim = np.dot(result_embed, actual_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_embed))
-            result['text_clap_score'] = cos_sim
+                # compare to actual patch embedding
+                result_embed = np.array(json.loads(df_result_patch['embeddings_audio']), dtype=np.float32)
+                actual_embed = df_test_row_val['embeddings_audio']
+                cos_sim = np.dot(result_embed, actual_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_embed))
+                result['text_clap_score'] = cos_sim
+
+            # skip audio based iteration if audio is empty (should not happen though)
+            if not torch.all(audio == 0):
+
+                # start timer
+                start = time.perf_counter()
+
+                # generate patch with only text input
+                recon, _, _ = model(audio=audio)
+
+                # read generated patch data
+                result_patch = array_to_patch(recon.squeeze(0).numpy())
+
+                # stop timer
+                end = time.perf_counter()
+                result['audio_time'] = end - start
+
+                # read actual patch data
+                actual_patch = array_to_patch(x.squeeze(0).numpy())
+                
+                # calculate patch difference for each value
+                result['audio_patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
+
+                # read meta info
+                result_patch['meta_name'] = df_test_row_val['meta_name']
+                result_patch['meta_location'] = df_test_row_val['meta_location']
+                result_patch['tags_categories'] = df_test_row_val['tags_categories']
+                result_patch['tags_features'] = df_test_row_val['tags_features']
+                result_patch['tags_character'] = df_test_row_val['tags_character']
+
+                # convert result patch to dataframe
+                df_result_patch = pd.Series(result_patch)
+
+                # calculate result patch embedding
+                result_dataset_name = f'{dataset_name}_results'
+                render_patch(df_result_patch, engine, diva, dataset_name=result_dataset_name)
+                df_result_patch = create_embeddings(df_result_patch, clap, dataset_name=result_dataset_name)
+
+                # compare to actual patch embedding
+                result_embed = np.array(json.loads(df_result_patch['embeddings_audio']), dtype=np.float32)
+                actual_embed = df_test_row_val['embeddings_audio']
+                cos_sim = np.dot(result_embed, actual_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_embed))
+                result['audio_clap_score'] = cos_sim
 
             # append result
             results.append(result)

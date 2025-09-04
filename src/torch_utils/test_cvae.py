@@ -5,7 +5,7 @@ import numpy as np
 from .cvae import CVAE
 import torch
 from utils import logger, calc_patch_difference
-from diva import array_to_patch
+from diva_utils import array_to_patch
 import time
 import pandas as pd
 import json

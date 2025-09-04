@@ -5,7 +5,7 @@ from clap_utils import init_clap
 from dawdreamer_utils import init_dawdreamer
 import pandas as pd
 from typing import Dict
-from diva import array_to_patch
+from diva_utils import array_to_patch
 import json
 import jax
 import jax.numpy as jnp

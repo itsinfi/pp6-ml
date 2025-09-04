@@ -2,7 +2,7 @@ from dawdreamer_utils import init_dawdreamer, render_patch
 from clap_utils import init_clap, create_embeddings
 import numpy as np
 from utils import calc_patch_difference
-from diva import array_to_patch
+from diva_utils import array_to_patch
 import time
 import pandas as pd
 import json

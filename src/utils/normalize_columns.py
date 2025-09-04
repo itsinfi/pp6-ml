@@ -1,6 +1,6 @@
 import pandas as pd
 from typing import List
-from diva import DIVA_ENV_MAX_MAP
+from diva_utils import DIVA_ENV_MAX_MAP
 
 def normalize_columns(df: pd.DataFrame, numeric_cols: List[str]):
     df_normalized = df.copy()

@@ -1,4 +1,4 @@
-from diva import DIVA_RESULT_TO_ENV_MAP
+from diva_utils import DIVA_RESULT_TO_ENV_MAP
 import numpy as np
 
 def array_to_patch(arr: np.ndarray):

@@ -1,4 +1,4 @@
-from diva import DIVA_MAP, DIVA_ENV_TO_INDEX_MAP
+from diva_utils import DIVA_MAP, DIVA_ENV_TO_INDEX_MAP
 import dawdreamer as daw
 from utils import read_diva_value
 from dawdreamer_utils.convert_parameters_description import convert_parameters_description

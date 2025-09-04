@@ -6,27 +6,6 @@ import numpy as np
 import soundfile as sf
 from .change_patch import change_patch
 
-
-import math
-
-def patch_to_dict(patch):
-    """Convert [(idx, val), ...] to {idx: val}."""
-    return {int(i): float(v) for i, v in patch}
-
-def diff_patches(patch_a, patch_b, abs_tol=1e-6, rel_tol=1e-12):
-    A = patch_to_dict(patch_a)
-    B = patch_to_dict(patch_b)
-
-    missing_in_b = sorted(set(A) - set(B))  # indices present in A but not in B
-    added_in_b   = sorted(set(B) - set(A))  # indices present in B but not in A
-
-    changed = {
-        i: (A[i], B[i])
-        for i in (set(A) & set(B))
-        if not math.isclose(A[i], B[i], abs_tol=abs_tol, rel_tol=rel_tol)
-    }
-    return missing_in_b, added_in_b, changed
-
 def render_patch(row: pd.Series, engine: daw.RenderEngine, diva: daw.PluginProcessor, dataset_name: str):
     # change preset
     print(f"{DIVA_PRESET_DIR}{row['meta_location']}")

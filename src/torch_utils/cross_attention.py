@@ -20,7 +20,7 @@ class CrossAttention(nn.Module):
         self.proj = nn.Linear(self.embed_dim * 2, self.embed_dim)
 
         # dummy token to handle missing inputs
-        self.dummy_token = nn.Parameter(torch.randn(1, 1, embed_dim))
+        self.dummy_token = nn.Parameter(torch.randn(1, 1, embed_dim) * 0.01)
 
     def prepare_sequence(self, x: Optional[torch.Tensor]):
         # x is expected to have shape (batch_size, embed_dim)
@@ -36,13 +36,16 @@ class CrossAttention(nn.Module):
         if c_seq is None:
             return self.dummy_token.expand(c_seq.size(0), -1, -1)
         
-        mask = torch.all(c_seq == 0, dim=1, keepdim=True).bool() # shape (batch, seq_len, 1)
+        mask = torch.all(c_seq == 0, dim=-1, keepdim=True) # shape (batch, seq_len, 1)
         mask = mask.squeeze(-1) # shape (batch, seq_len = 1)
 
         if mask.any():
             c_seq = c_seq.clone()
             dummy_expanded = self.dummy_token.expand(c_seq.size(0), c_seq.size(1), c_seq.size(2))
             c_seq[mask] = dummy_expanded[mask]
+
+        # correct possible case of all values being 0 and therefore all values are now nan due to softmax
+        c_seq = torch.nan_to_num(c_seq, nan=0.0, posinf=1e6, neginf=-1e6)
         return c_seq
 
     def get_mask(self, tensor: Optional[torch.TensorType]):

@@ -46,7 +46,7 @@ def test_cvae(
     results = []
 
     with torch.no_grad():
-        for x, audio_test, text_test, df_test_row in zip(x_test_tensor, audio_test_tensor, text_test_tensor, df_test.iterrows()):
+        for x, audio_test_element, text_test_element, df_test_row in zip(x_test_tensor, audio_test_tensor, text_test_tensor, df_test.iterrows()):
             _, df_test_row_val = df_test_row
 
             result = {}
@@ -55,8 +55,8 @@ def test_cvae(
             x = x.unsqueeze(0)
 
             # convert conditions to batch
-            text = text_test.unsqueeze(0)
-            audio = audio_test.unsqueeze(0)
+            text = text_test_element.unsqueeze(0)
+            audio = audio_test_element.unsqueeze(0)
 
             # skip text based iteration if text is empty
             if not torch.all(text == 0):
@@ -107,7 +107,7 @@ def test_cvae(
                 # start timer
                 start = time.perf_counter()
 
-                # generate patch with only text input
+                # generate patch with only audio input
                 recon, _, _ = model(audio=audio)
 
                 # read generated patch data

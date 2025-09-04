@@ -3,7 +3,7 @@ import laion_clap as lc
 import numpy as np
 import json
 
-def create_embeddings(row: pd.DataFrame, clap: lc.CLAP_Module, dataset_name: str):
+def create_embeddings(row: pd.Series, clap: lc.CLAP_Module, dataset_name: str):
     print('file:', row['meta_location'])
 
     # generate audio embedding

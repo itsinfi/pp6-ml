@@ -26,7 +26,7 @@ def main():
     x_test = read_input_data(df_test)
 
     # read conditional data for audio and text embeddings and save them as a numpy array
-    c_test = read_condition_data(df_test)
+    audio_test, text_test = read_condition_data(df_test, audio_zero_perc=0.0)
 
     # run les algorithm
-    test_les(dataset_name, x_test, c_test, df_test)
+    test_les(dataset_name, x_test, audio_test, text_test, df_test)

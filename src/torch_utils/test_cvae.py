@@ -33,7 +33,7 @@ def test_cvae(
 
     # calculate dataset dimensions
     input_dim = x_test_tensor.shape[1]
-    cond_dim = text_test_tensor.shape[1]
+    cond_dim = text_test_tensor.shape[1] + audio_test_tensor.shape[1]
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
     # init model
@@ -55,8 +55,8 @@ def test_cvae(
             x = x.unsqueeze(0)
 
             # convert conditions to batch
-            text = text_test[512:].unsqueeze(0)
-            # audio = audio_test[:512].unsqueeze(0)
+            text = text_test.unsqueeze(0)
+            # audio = audio_test.unsqueeze(0)
 
             # skip iteration if text is empty
             if (torch.all(text == 0)):

@@ -32,7 +32,7 @@ def train_cvae(
 
     # calculate dataset dimensions
     input_dim = x_train_tensor.shape[1]
-    cond_dim = text_train_tensor.shape[1]
+    cond_dim = text_train_tensor.shape[1] + audio_train_tensor.shape[1]
     latent_dim = 64
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
@@ -83,16 +83,12 @@ def train_cvae(
         for x_train_batch, audio_train_batch, text_train_batch in train_loader:
             x_train_batch = x_train_batch.view(-1, input_dim)
 
-            # split audio and text
-            audio_train = audio_train_batch[:, :cond_dim // 2]
-            text_train  = text_train_batch[:, cond_dim // 2:]
-
             # train batch
             optimizer.zero_grad()
             recon_train, mu_train, logvar_train = model(
                 x=x_train_batch,
-                audio=audio_train,
-                text=text_train
+                audio=audio_train_batch,
+                text=text_train_batch,
             )
             loss, bce, kld = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
             loss.backward()
@@ -117,15 +113,11 @@ def train_cvae(
             for x_val_batch, audio_val_batch, text_val_batch in val_loader:
                 x_val_batch = x_val_batch.view(-1, input_dim)
 
-                # split audio and text
-                audio_val = audio_val_batch[:, :cond_dim // 2]
-                text_val  = text_val_batch[:, cond_dim // 2:]
-
                 # validate batch
                 recon_val, mu_val, logvar_val = model(
                     x=x_val_batch, 
-                    audio=audio_val, 
-                    text=text_val,
+                    audio=audio_val_batch, 
+                    text=text_val_batch,
                 )
                 loss, bce, kld = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
 

@@ -29,18 +29,19 @@ def main():
     x_test = read_input_data(df_test)
 
     # read conditional data for audio and text embeddings and save them as a numpy array
-    c_train = read_condition_data(df_train)
-    c_val = read_condition_data(df_val)
-    c_test = read_condition_data(df_test)
+    audio_train, text_train = read_condition_data(df_train)
+    audio_val, text_val = read_condition_data(df_val)
+    audio_test, text_test = read_condition_data(df_test)
     
     # run training (incl. validation)
-    model = train_cvae(x_train, c_train, x_val, c_val)
+    model = train_cvae(x_train, audio_train, text_train, x_val, audio_val, text_val)
 
     # run test
     test_cvae(
         dataset_name, 
         x_test, 
-        c_test, 
+        audio_test,
+        text_test,
         df_test,
         model_state_dict=model['model_state_dict'], 
         latent_dim=model['meta']['latent_dim']

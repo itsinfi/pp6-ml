@@ -10,9 +10,12 @@ from datetime import datetime
 
 def train_cvae(
     x_train: np.ndarray[np.ndarray[np.float32]],
-    c_train: np.ndarray[np.ndarray[np.float32]],
+    audio_train: np.ndarray[np.ndarray[np.float32]],
+    text_train: np.ndarray[np.ndarray[np.float32]],
     x_val: np.ndarray[np.ndarray[np.float32]],
-    c_val: np.ndarray[np.ndarray[np.float32]]
+    audio_val: np.ndarray[np.ndarray[np.float32]],
+    text_val: np.ndarray[np.ndarray[np.float32]],
+    batch_size: int = 64,
 ):
     """
     - handles the training process for the cvae
@@ -21,13 +24,15 @@ def train_cvae(
 
     # convert datasets to torch tensor
     x_train_tensor = torch.tensor(x_train, dtype=torch.float32)
-    c_train_tensor = torch.tensor(c_train, dtype=torch.float32)
+    audio_train_tensor = torch.tensor(audio_train, dtype=torch.float32)
+    text_train_tensor = torch.tensor(text_train, dtype=torch.float32)
     x_val_tensor = torch.tensor(x_val, dtype=torch.float32)
-    c_val_tensor = torch.tensor(c_val, dtype=torch.float32)
+    audio_val_tensor = torch.tensor(audio_val, dtype=torch.float32)
+    text_val_tensor = torch.tensor(text_val, dtype=torch.float32)
 
     # calculate dataset dimensions
     input_dim = x_train_tensor.shape[1]
-    cond_dim = c_train_tensor.shape[1]
+    cond_dim = text_train_tensor.shape[1]
     latent_dim = 64
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
@@ -40,12 +45,12 @@ def train_cvae(
     torch.backends.cudnn.benchmark = False
 
     # initialize training loader
-    train_dataset = TensorDataset(x_train_tensor, c_train_tensor)
-    train_loader = DataLoader(train_dataset, batch_size=64, shuffle=False)
+    train_dataset = TensorDataset(x_train_tensor, audio_train_tensor, text_train_tensor)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=False)
 
     # initialize validation loader
-    val_dataset = TensorDataset(x_val_tensor, c_val_tensor)
-    val_loader = DataLoader(val_dataset, batch_size=64, shuffle=False)
+    val_dataset = TensorDataset(x_val_tensor, audio_val_tensor, text_val_tensor)
+    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 
     # initialize model and weights
     model = CVAE(input_dim, cond_dim, latent_dim)
@@ -75,16 +80,20 @@ def train_cvae(
         train_total_loss, train_bce_loss, train_kld_loss = 0.0, 0.0, 0.0
         
         # iterate through dataset
-        for x_train_batch, c_train_batch in train_loader:
+        for x_train_batch, audio_train_batch, text_train_batch in train_loader:
             x_train_batch = x_train_batch.view(-1, input_dim)
 
             # split audio and text
-            audio_train = c_train_batch[:, :cond_dim // 2]
-            text_train  = c_train_batch[:, cond_dim // 2:]
+            audio_train = audio_train_batch[:, :cond_dim // 2]
+            text_train  = text_train_batch[:, cond_dim // 2:]
 
             # train batch
             optimizer.zero_grad()
-            recon_train, mu_train, logvar_train = model(x_train_batch, audio_train, text_train)
+            recon_train, mu_train, logvar_train = model(
+                x=x_train_batch,
+                audio=audio_train,
+                text=text_train
+            )
             loss, bce, kld = calc_loss(recon_train, x_train_batch, mu_train, logvar_train)
             loss.backward()
             optimizer.step()
@@ -105,15 +114,19 @@ def train_cvae(
         val_total_loss, val_bce_loss, val_kld_loss = 0.0, 0.0, 0.0
 
         with torch.no_grad():
-            for x_val_batch, c_val_batch in val_loader:
+            for x_val_batch, audio_val_batch, text_val_batch in val_loader:
                 x_val_batch = x_val_batch.view(-1, input_dim)
 
                 # split audio and text
-                audio_val = c_val_batch[:, :cond_dim // 2]
-                text_val  = c_val_batch[:, cond_dim // 2:]
+                audio_val = audio_val_batch[:, :cond_dim // 2]
+                text_val  = text_val_batch[:, cond_dim // 2:]
 
                 # validate batch
-                recon_val, mu_val, logvar_val = model(x_val_batch, audio_val, text_val)
+                recon_val, mu_val, logvar_val = model(
+                    x=x_val_batch, 
+                    audio=audio_val, 
+                    text=text_val,
+                )
                 loss, bce, kld = calc_loss(recon_val, x_val_batch, mu_val, logvar_val)
 
                 # track validation loss

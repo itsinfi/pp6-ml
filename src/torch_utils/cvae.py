@@ -48,9 +48,9 @@ class CVAE(nn.Module):
 
     def encode(
         self,
-        x: Optional[torch.Tensor],
-        audio: Optional[torch.Tensor],
-        text: Optional[torch.Tensor]
+        x: Optional[torch.TensorType],
+        audio: Optional[torch.TensorType],
+        text: Optional[torch.TensorType]
     ):
         # apply cross attention
         c = self.cross_attn(audio, text)
@@ -84,9 +84,9 @@ class CVAE(nn.Module):
     
     def forward(
         self,
-        x: Optional[torch.Tensor] = None,
-        audio: Optional[torch.Tensor] = None,
-        text: Optional[torch.Tensor] = None
+        x: Optional[torch.TensorType] = None,
+        audio: Optional[torch.TensorType] = None,
+        text: Optional[torch.TensorType] = None
     ):
         # generate a patch from a provided starting point
         if x is not None:

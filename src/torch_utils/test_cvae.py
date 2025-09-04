@@ -14,7 +14,8 @@ import os
 def test_cvae(
     dataset_name: str,
     x_test: np.ndarray[np.ndarray[np.float32]], 
-    c_test: np.ndarray[np.ndarray[np.float32]],
+    audio_test: np.ndarray[np.ndarray[np.float32]],
+    text_test: np.ndarray[np.ndarray[np.float32]],
     df_test: pd.DataFrame,
     model_state_dict: Dict,
     latent_dim: int,
@@ -27,11 +28,12 @@ def test_cvae(
 
     # convert datasets to torch tensor
     x_test_tensor = torch.tensor(x_test, dtype=torch.float32)
-    c_test_tensor = torch.tensor(c_test, dtype=torch.float32)
+    audio_test_tensor = torch.tensor(audio_test, dtype=torch.float32)
+    text_test_tensor = torch.tensor(text_test, dtype=torch.float32)
 
     # calculate dataset dimensions
     input_dim = x_test_tensor.shape[1]
-    cond_dim = c_test_tensor.shape[1]
+    cond_dim = text_test_tensor.shape[1]
     logger.info(f'input_dim: {input_dim}\tcond_dim: {cond_dim}\tlatent_dim: {latent_dim}')
 
     # init model
@@ -44,15 +46,21 @@ def test_cvae(
     results = []
 
     with torch.no_grad():
-        for x, c, df_test_row in zip(x_test_tensor, c_test_tensor, df_test.iterrows()):
+        for x, audio_test, text_test, df_test_row in zip(x_test_tensor, audio_test_tensor, text_test_tensor, df_test.iterrows()):
             _, df_test_row_val = df_test_row
 
             result = {}
 
-            # convert to batch
+            # convert input to batch
             x = x.unsqueeze(0)
-            # audio = c[:512].unsqueeze(0)
-            text = c[512:].unsqueeze(0)
+
+            # convert conditions to batch
+            text = text_test[512:].unsqueeze(0)
+            # audio = audio_test[:512].unsqueeze(0)
+
+            # skip iteration if text is empty
+            if (torch.all(text == 0)):
+                continue
 
             # start timer
             start = time.perf_counter()
@@ -106,5 +114,5 @@ def test_cvae(
     # save results + stats
     os.makedirs('results', exist_ok=True)
     os.makedirs(f'results/{dataset_name}', exist_ok=True)
-    df_results.to_parquet(f'results/cvae_{dataset_name}_results.parquet', compression='gzip')
-    df_stats.to_csv(f'results/cvae_{dataset_name}_results_stats.csv')
+    df_results.to_parquet(f'results/{dataset_name}/cvae_{dataset_name}_results.parquet', compression='gzip')
+    df_stats.to_csv(f'results/{dataset_name}/cvae_{dataset_name}_results_stats.csv')

@@ -81,5 +81,5 @@ def test_les(
     # save results + stats
     os.makedirs('results', exist_ok=True)
     os.makedirs(f'results/{dataset_name}', exist_ok=True)
-    df_results.to_parquet(f'results/les_{dataset_name}_results.parquet', compression='gzip')
-    df_stats.to_csv(f'results/les_{dataset_name}_results_stats.csv')
+    df_results.to_parquet(f'results/{dataset_name}/les_{dataset_name}_results.parquet', compression='gzip')
+    df_stats.to_csv(f'results/{dataset_name}/les_{dataset_name}_results_stats.csv')

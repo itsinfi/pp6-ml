@@ -3,6 +3,10 @@ import pandas as pd
 from les_utils import test_les
 from utils import read_input_data, read_condition_data, split_data
 
+# verbose error logging
+import faulthandler
+faulthandler.enable()
+
 def main():
     """
     handles testing the les model
@@ -29,4 +33,9 @@ def main():
     audio_test, text_test = read_condition_data(df_test, audio_zero_perc=0.0)
 
     # run les algorithm
-    test_les(dataset_name, x_test, audio_test, text_test, df_test)
+    try:
+        test_les(dataset_name, x_test, audio_test, text_test, df_test)
+    except Exception as e:
+        print(e)
+        print(e.with_traceback())
+        raise(e)

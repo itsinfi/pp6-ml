@@ -157,5 +157,5 @@ def main():
 
     # save dataframe + stats
     df_normalized.to_parquet(f'data/{args.dataset_name}.parquet', compression='gzip')
-    # df_normalized.to_csv(f'data/{args.dataset_name}.csv')
+    df_normalized.to_csv(f'data/{args.dataset_name}.csv')
     df_stats.to_csv(f'data/{args.dataset_name}_stats.csv')

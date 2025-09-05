@@ -40,19 +40,20 @@ def test_les(
 
             # generate patch with only text input
             solution = les(text, df_test_row_val, clap, engine, diva)
+            print('---text')
 
             # read generated patch data
             result_patch = array_to_patch(np.array(solution))
 
             # stop timer
             end = time.perf_counter()
-            result['time'] = end - start
+            result['text_time'] = end - start
 
             # read actual patch data
             actual_patch = array_to_patch(x)
             
             # calculate patch difference for each value
-            result['patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
+            result['text_patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
 
             # read meta info
             result_patch['meta_name'] = df_test_row_val['meta_name']
@@ -71,9 +72,12 @@ def test_les(
 
             # compare to actual patch embedding
             result_embed = np.array(json.loads(df_result_patch['embeddings_audio']), dtype=np.float32)
-            actual_embed = df_test_row_val['embeddings_audio']
-            cos_sim = np.dot(result_embed, actual_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_embed))
-            result['text_clap_score'] = cos_sim
+            actual_audio_embed = df_test_row_val['embeddings_audio']
+            actual_text_embed = df_test_row_val['embeddings_tags']
+            cos_sim_res = np.dot(result_embed, actual_audio_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_audio_embed))
+            cos_sim_real = np.dot(actual_text_embed, actual_audio_embed) / (np.linalg.norm(actual_text_embed) * np.linalg.norm(actual_audio_embed))
+            result['text_clap_score'] = cos_sim_res
+            result['text_clap_score_real_diff'] = cos_sim_real
 
         # skip audio based iteration if audio is empty (should not happen though)
         if not np.all(audio == 0):
@@ -83,19 +87,20 @@ def test_les(
 
             # generate patch with only audio input
             solution = les(audio, df_test_row_val, clap, engine, diva)
+            print('---audio')
 
             # read generated patch data
             result_patch = array_to_patch(np.array(solution))
 
             # stop timer
             end = time.perf_counter()
-            result['time'] = end - start
+            result['audio_time'] = end - start
 
             # read actual patch data
             actual_patch = array_to_patch(x)
             
             # calculate patch difference for each value
-            result['patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
+            result['audio_patch_similarity'] = calc_patch_difference(result_patch, actual_patch)
 
             # read meta info
             result_patch['meta_name'] = df_test_row_val['meta_name']
@@ -114,9 +119,9 @@ def test_les(
 
             # compare to actual patch embedding
             result_embed = np.array(json.loads(df_result_patch['embeddings_audio']), dtype=np.float32)
-            actual_embed = df_test_row_val['embeddings_audio']
-            cos_sim = np.dot(result_embed, actual_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_embed))
-            result['text_clap_score'] = cos_sim
+            actual_audio_embed = df_test_row_val['embeddings_audio']
+            cos_sim_res = np.dot(result_embed, actual_audio_embed) / (np.linalg.norm(result_embed) * np.linalg.norm(actual_audio_embed))
+            result['audio_clap_score'] = cos_sim_res
 
         # append result
         results.append(result)

@@ -2,27 +2,27 @@ import dawdreamer as daw
 import laion_clap as lc
 import numpy as np
 from clap_utils import init_clap
-from dawdreamer_utils import init_dawdreamer
+from dawdreamer_utils import init_dawdreamer, convert_parameters_description
 import pandas as pd
 from typing import Dict
 from diva_utils import array_to_patch
-import json
 import jax
 import jax.numpy as jnp
 from evosax.algorithms import LearnedES
 from .create_embeddings_les import create_embeddings_les
+from config import DIVA_PRESET_DIR
 
 clap = init_clap()
 engine, diva = init_dawdreamer()
 
 def les(
-    text_embed: np.ndarray,
+    goal_embed: np.ndarray,
     row: Dict,
     clap: lc.CLAP_Module,
     engine: daw.RenderEngine,
     diva: daw.PluginProcessor,
-    population_size: int = 25,
-    iterations: int = 50,
+    population_size: int = 2,
+    iterations: int = 2,
     param_dim: int = 24
 ):
     """
@@ -32,8 +32,14 @@ def les(
     - Cherep, M. et al. (2024). https://arxiv.org/abs/2406.00294
     """
 
+    # convert goal embed to jnp
+    jnp.array(goal_embed)
+
     # initialize les
-    les = LearnedES(population_size, solution=jnp.zeros(param_dim))
+    key = jax.random.key(0)
+    initial_sol = jax.random.uniform(key, shape=(param_dim,), minval=0.0, maxval=1.0)
+    print(initial_sol)
+    les = LearnedES(population_size, solution=initial_sol)
 
     # initialize parameters
     params = les.default_params
@@ -43,8 +49,15 @@ def les(
     key = jax.random.key(0)
     state = les.init(key, mean, params)
 
+    # read preset file
+    with open(f"{DIVA_PRESET_DIR}{row['meta_location']}", mode='r', encoding='utf-8') as f:
+        preset = f.readlines()
+
+    # read param description
+    param_desc = convert_parameters_description(diva.get_parameters_description())
+
     for i in range(1, iterations + 1):
-        print(f'iteration {i}/{iterations}')
+        print(f"iteration {i}/{iterations} for {row['meta_location']}")
 
         # generate canidates
         key, key_ask, key_tell = jax.random.split(key, 3)
@@ -56,33 +69,30 @@ def les(
         # reshape to dataframe
         df_canidates = pd.DataFrame([{
             **array_to_patch(canidate),
-            'meta_name': row['meta_name'], 
             'meta_location': row['meta_location'],
-            'tags_categories': row['tags_categories'],
-            'tags_features': row['tags_features'],
-            'tags_character': row['tags_character'],
-        } for canidate in np.array(population)])
+        } for canidate in jnp.array(population)])
         
         # synthesize audio + get audio embedding
         audio_embeds = []
         for _, canidate in df_canidates.iterrows():
-            canidate_with_embeds = create_embeddings_les(canidate, engine, diva, clap)
-            audio_embeds.append(np.array(
-                json.loads(canidate_with_embeds['embeddings_audio']),
-                dtype=np.float32,
-            ))
+            audio_embeds.append(create_embeddings_les(canidate, preset, engine, diva, clap, param_desc))
+        audio_embeds = jnp.array(audio_embeds)
 
-        # compute fitness (negative cosine similarity between audio and text embeddings)
-        fitness = jnp.array(
-            -np.dot(audio_embeds, text_embed) / (
-                np.linalg.norm(audio_embeds, axis=1) * 
-                np.linalg.norm(text_embed) + 1e-8
-            ),
+        print("audio_embeds shape:", jnp.array(audio_embeds).shape)
+        print("audio norms:", jnp.linalg.norm(audio_embeds, axis=1))
+        print("goal norm:", jnp.linalg.norm(goal_embed))
+        print("any NaNs in audio?", jnp.isnan(audio_embeds).any())
+
+        # compute fitnesses (negative cosine similarity between audio and text embeddings)
+        fitnesses = jnp.array(
+            -jnp.dot(audio_embeds, goal_embed) / (jnp.linalg.norm(audio_embeds, axis=1) * jnp.linalg.norm(goal_embed)),
             dtype=jnp.float32,
         )
 
+        print('fitnesses', fitnesses)
+
         # update optimizer state
-        state, _ = les.tell(key_tell, population, fitness, state, params)
+        state, _ = les.tell(key_tell, population, fitnesses, state, params)
     
     # return optimal patch
     print(f'best fitness: {state.best_fitness}')

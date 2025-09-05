@@ -21,28 +21,27 @@ class CVAE(nn.Module):
     
         # encoder for extracting most important features out of the input and conditions
         self.encoder = nn.Sequential(
-            nn.Linear(self.input_dim + self.cond_dim, 256),
+            nn.Linear(self.input_dim + self.cond_dim, 512),
             nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(256, 128),
+            nn.Dropout(0.1),
+            nn.Linear(512, 256),
             nn.ReLU(),
         )
         
         # for creating a mean vector for latent space
-        self.fc_mu = nn.Linear(128, latent_dim)
+        self.fc_mu = nn.Linear(256, latent_dim)
 
         # for creting a log variation vector for latent space
-        self.fc_logvar = nn.Linear(128, latent_dim)
+        self.fc_logvar = nn.Linear(256, latent_dim)
 
         # decoder for reconstructing the patch from a simplified patch and conditions to understand how to build it
         self.decoder = nn.Sequential(
-            nn.Linear(latent_dim + self.cond_dim, 128),
+            nn.Linear(latent_dim + self.cond_dim, 256),
             nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(128, 256),
+            nn.Linear(256, 512),
             nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(256, self.input_dim),
+            nn.Dropout(0.1),
+            nn.Linear(512, self.input_dim),
             nn.Sigmoid(),
         )
 
@@ -50,10 +49,12 @@ class CVAE(nn.Module):
         self,
         x: Optional[torch.TensorType],
         audio: Optional[torch.TensorType],
-        text: Optional[torch.TensorType]
+        text: Optional[torch.TensorType],
     ):
+        print('encode txt', text, 'encode aud', audio)
         # apply cross attention
         c = self.cross_attn(audio, text)
+        print('encode c', c)
 
         # concatenate input and condition
         input = torch.cat([x, c], dim=1)
@@ -80,13 +81,14 @@ class CVAE(nn.Module):
         return mu + eps * std
     
     def decode(self, z, c):
+        print('decode z', z, 'decode c', c)
         return self.decoder(torch.cat([z, c], dim=1))
     
     def forward(
         self,
         x: Optional[torch.TensorType] = None,
         audio: Optional[torch.TensorType] = None,
-        text: Optional[torch.TensorType] = None
+        text: Optional[torch.TensorType] = None,
     ):
         # generate a patch from a provided starting point
         if x is not None:

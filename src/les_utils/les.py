@@ -29,8 +29,8 @@ def les(
     engine: daw.RenderEngine,
     diva: daw.PluginProcessor,
     params = None,
-    population_size: int = 2,
-    iterations: int = 2,
+    population_size: int = 10,
+    iterations: int = 5,
     param_dim: int = 24,
 ):
     """

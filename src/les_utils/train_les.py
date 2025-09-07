@@ -15,9 +15,9 @@ from clap_utils import init_clap
 def train_les(
     embeds_train: np.ndarray[np.ndarray[np.float32]],
     df_train: pd.DataFrame,
-    meta_iter: int = 2,
-    les_pop: int = 2,
-    les_iter: int = 2,
+    meta_iter: int = 5,
+    les_pop: int = 10,
+    les_iter: int = 5,
     param_dim: int = 24,
 ):
     # filter input data

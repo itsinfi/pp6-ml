@@ -13,7 +13,14 @@ from .create_embeddings_les import create_embeddings_les
 from config import DIVA_PRESET_DIR
 
 clap = init_clap()
-engine, diva = init_dawdreamer()
+engine, diva = init_dawdreamer(sample_rate=16000)
+
+def calculate_cosine_fitnesses(audio_embeds: jnp.ndarray, goal_embed: jnp.ndarray):
+    dot = jnp.dot(audio_embeds, goal_embed)
+    norm = (jnp.linalg.norm(audio_embeds, axis=1)) * (jnp.linalg.norm(goal_embed))
+    norm = jnp.where(norm == 0, 1e-8, norm) # prevent division by zero resulting in nan values and invalid optimizer states
+    fitnesses = -dot / norm
+    return fitnesses
 
 def les(
     goal_embed: np.ndarray,
@@ -21,9 +28,10 @@ def les(
     clap: lc.CLAP_Module,
     engine: daw.RenderEngine,
     diva: daw.PluginProcessor,
+    params = None,
     population_size: int = 2,
     iterations: int = 2,
-    param_dim: int = 24
+    param_dim: int = 24,
 ):
     """
     algorithmic optimizer (learned es) for clap text embeddings and audio embeddings based on work from:
@@ -33,7 +41,7 @@ def les(
     """
 
     # convert goal embed to jnp
-    jnp.array(goal_embed)
+    goal_embed = jnp.array(goal_embed, dtype=jnp.float32)
 
     # initialize les
     key = jax.random.key(0)
@@ -42,7 +50,8 @@ def les(
     les = LearnedES(population_size, solution=initial_sol)
 
     # initialize parameters
-    params = les.default_params
+    if params is None:
+        params = les.default_params
     mean = jnp.zeros(param_dim)
     
     # initialize state
@@ -78,17 +87,8 @@ def les(
             audio_embeds.append(create_embeddings_les(canidate, preset, engine, diva, clap, param_desc))
         audio_embeds = jnp.array(audio_embeds)
 
-        print("audio_embeds shape:", jnp.array(audio_embeds).shape)
-        print("audio norms:", jnp.linalg.norm(audio_embeds, axis=1))
-        print("goal norm:", jnp.linalg.norm(goal_embed))
-        print("any NaNs in audio?", jnp.isnan(audio_embeds).any())
-
         # compute fitnesses (negative cosine similarity between audio and text embeddings)
-        fitnesses = jnp.array(
-            -jnp.dot(audio_embeds, goal_embed) / (jnp.linalg.norm(audio_embeds, axis=1) * jnp.linalg.norm(goal_embed)),
-            dtype=jnp.float32,
-        )
-
+        fitnesses = jnp.array(calculate_cosine_fitnesses(audio_embeds, goal_embed), dtype=jnp.float32)
         print('fitnesses', fitnesses)
 
         # update optimizer state
@@ -97,4 +97,4 @@ def les(
     # return optimal patch
     print(f'best fitness: {state.best_fitness}')
     print(f'{state.best_solution}')
-    return state.best_solution
+    return np.array(state.best_solution, dtype=np.float32)

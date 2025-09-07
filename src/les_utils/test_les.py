@@ -15,6 +15,8 @@ def test_les(
     audio_test: np.ndarray[np.ndarray[np.float32]],
     text_test: np.ndarray[np.ndarray[np.float32]],
     df_test: pd.DataFrame,
+    params_les_text,
+    params_les_audio,
 ):
     # create render engine for renderman
     engine, diva = init_dawdreamer()
@@ -35,11 +37,14 @@ def test_les(
         # skip text based iteration if text is empty
         if not np.all(text == 0):
 
+            # reinitialize dawdreamer due to internal bug in dawdreamer
+            engine, diva = init_dawdreamer()
+
             # start timer
             start = time.perf_counter()
 
             # generate patch with only text input
-            solution = les(text, df_test_row_val, clap, engine, diva)
+            solution = les(text, df_test_row_val, clap, engine, diva, params=params_les_text)
             print('---text')
 
             # read generated patch data
@@ -65,6 +70,9 @@ def test_les(
             # convert result patch to dataframe
             df_result_patch = pd.Series(result_patch)
 
+            # reinitialize dawdreamer due to internal bug in dawdreamer
+            engine, diva = init_dawdreamer()
+
             # calculate result patch embedding
             result_dataset_name = f'{dataset_name}_results'
             render_patch(df_result_patch, engine, diva, dataset_name=result_dataset_name)
@@ -82,11 +90,14 @@ def test_les(
         # skip audio based iteration if audio is empty (should not happen though)
         if not np.all(audio == 0):
 
+            # reinitialize dawdreamer due to internal bug in dawdreamer
+            engine, diva = init_dawdreamer()
+
             # start timer
             start = time.perf_counter()
 
             # generate patch with only audio input
-            solution = les(audio, df_test_row_val, clap, engine, diva)
+            solution = les(audio, df_test_row_val, clap, engine, diva, params=params_les_audio)
             print('---audio')
 
             # read generated patch data
@@ -111,6 +122,9 @@ def test_les(
 
             # convert result patch to dataframe
             df_result_patch = pd.Series(result_patch)
+
+            # reinitialize dawdreamer due to internal bug in dawdreamer
+            engine, diva = init_dawdreamer()
 
             # calculate result patch embedding
             result_dataset_name = f'{dataset_name}_results'

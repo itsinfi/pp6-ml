@@ -1,9 +1,9 @@
 import dawdreamer as daw
 from config import SAMPLE_RATE, BLOCK_SIZE, NOTE_PITCH, NOTE_VELOCITY, NOTE_DURATION
 
-def init_dawdreamer():
+def init_dawdreamer(sample_rate: int = SAMPLE_RATE):
     # create a render engine
-    engine = daw.RenderEngine(SAMPLE_RATE, BLOCK_SIZE)
+    engine = daw.RenderEngine(sample_rate, BLOCK_SIZE)
 
     # create a plugin processor for diva
     diva = engine.make_plugin_processor('diva', r'C:\Program Files\Common Files\VST3\Diva(x64).vst3')

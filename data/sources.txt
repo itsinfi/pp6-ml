@@ -68,7 +68,7 @@ p = partly categorized (only some presets w/ tags for 'Categories', 'Features' a
     - 3.56  Bass pedals by ho66it, mcnoone https://u-he.com/PatchLib/presets/diva/KVR-bass_pedals.zip (n)
     - 3.57  Arksun Diva Demobank by Arksun https://u-he.com/PatchLib/presets/diva/Arksun-Diva_Demobank.zip (n)
     - 3.58  OmniDisc # 001 Demo by OmniCom International https://u-he.com/PatchLib/presets/diva/OmniDisc-001_Demo.zip (n)
-    - 3.59  Diva Patch Contest 01: banks by Gonga, satYatunes, BRoySound, audientronic, 3ee, Aiyn, ramdac, KBSoundSmith, solidtrax, Ambient Source, Resonator63, mcnoone, xhr3v, Noctilucent, chacka, thisismachine, urosh, Bronto Scorpio, ho66it, solidtrax, Doc Jon according to https://www.kvraudio.com/forum/viewtopic.php?t=333785: https://u-he.com/PatchLib/presets/diva/DPC-01.zip (n) (duplicates other presets)
+    - 3.59  Diva Patch Contest 01: banks by Gonga, satYatunes, BRoySound, audientronic, 3ee, Aiyn, ramdac, KBSoundSmith, solidtrax, Ambient Source, Resonator63, mcnoone, xhr3v, Noctilucent, chacka, thisismachine, urosh, Bronto Scorpio, ho66it, solidtrax, Doc Jon: https://u-he.com/PatchLib/presets/diva/DPC-01.zip (n) (duplicates other presets)
     - 3.60  vd3 Diva by vd3 https://u-he.com/PatchLib/presets/diva/Jan-vd3-vanderToornDivaSounds.zip (n)
     - 3.61  AmbientMonkey Diva by AmbientMonkey https://u-he.com/PatchLib/presets/diva/AmbientMonkey-Diva.zip (n)
     - 3.62  FMR patches by fmr https://u-he.com/PatchLib/presets/diva/FMR_patches.zip (n)
